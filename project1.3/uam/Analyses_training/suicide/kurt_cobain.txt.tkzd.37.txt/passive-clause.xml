@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/kurt_cobain.txt.tkzd.37.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='797' end='836' features='passive-clause' state='active'/>
+      <segment id='2' start='1071' end='1080' features='passive-clause' state='active'/>
+    </segments>
+</document>

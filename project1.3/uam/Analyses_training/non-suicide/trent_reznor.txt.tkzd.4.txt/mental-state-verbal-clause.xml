@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/trent_reznor.txt.tkzd.4.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='679' end='763' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='764' end='795' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='846' end='863' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='866' end='887' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='866' end='887' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='888' end='909' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='888' end='909' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='910' end='931' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='910' end='931' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='946' end='955' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

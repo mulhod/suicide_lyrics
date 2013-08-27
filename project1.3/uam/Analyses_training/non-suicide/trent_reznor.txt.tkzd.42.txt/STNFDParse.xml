@@ -1,0 +1,235 @@
+<document>
+  <header>
+<lang>english</lang>
+<complete>100%</complete>
+  </header>
+  <segments>
+     <segment id='1' start='36' end='53' features='symbol;nonterm;root'/>
+    <segment id='2' start='36' end='53' features='symbol;unknown;frag' parent='1' role='Constituent'/>
+    <segment id='3' start='36' end='42' features='symbol;nonterm;phrase;advp' parent='2' role='Constituent'/>
+    <segment id='4' start='36' end='42' features='symbol;token;word;adverb;rb' parent='3' role='Constituent'/>
+    <segment id='5' start='43' end='44' features='symbol;token;punctuation;comma' parent='2' role='Constituent'/>
+    <segment id='6' start='45' end='51' features='symbol;nonterm;phrase;advp' parent='2' role='Constituent'/>
+    <segment id='7' start='45' end='51' features='symbol;token;word;adverb;rb' parent='6' role='Constituent'/>
+    <segment id='8' start='52' end='53' features='symbol;token;punctuation;period' parent='2' role='Constituent'/>
+    <segment id='9' start='54' end='66' features='symbol;nonterm;root'/>
+    <segment id='10' start='54' end='66' features='symbol;nonterm;phrase;np' parent='9' role='Constituent'/>
+    <segment id='11' start='54' end='64' features='symbol;token;word;noun;common;nn' parent='10' role='Constituent'/>
+    <segment id='12' start='65' end='66' features='symbol;token;punctuation;period' parent='10' role='Constituent'/>
+    <segment id='13' start='67' end='77' features='symbol;nonterm;root'/>
+    <segment id='14' start='67' end='77' features='symbol;nonterm;phrase;np' parent='13' role='Constituent'/>
+    <segment id='15' start='67' end='75' features='symbol;token;word;noun;common;nn' parent='14' role='Constituent'/>
+    <segment id='16' start='76' end='77' features='symbol;token;punctuation;period' parent='14' role='Constituent'/>
+    <segment id='17' start='78' end='90' features='symbol;nonterm;root'/>
+    <segment id='18' start='78' end='90' features='symbol;nonterm;phrase;np' parent='17' role='Constituent'/>
+    <segment id='19' start='78' end='88' features='symbol;token;word;noun;common;nn' parent='18' role='Constituent'/>
+    <segment id='20' start='89' end='90' features='symbol;token;punctuation;period' parent='18' role='Constituent'/>
+    <segment id='21' start='91' end='105' features='symbol;nonterm;root'/>
+    <segment id='22' start='91' end='105' features='symbol;nonterm;phrase;np' parent='21' role='Constituent'/>
+    <segment id='23' start='91' end='103' features='symbol;token;word;noun;common;nn' parent='22' role='Constituent'/>
+    <segment id='24' start='104' end='105' features='symbol;token;punctuation;period' parent='22' role='Constituent'/>
+    <segment id='25' start='106' end='141' features='symbol;nonterm;root'/>
+    <segment id='26' start='106' end='141' features='symbol;nonterm;sentence;s' parent='25' role='Constituent'/>
+    <segment id='27' start='106' end='139' features='symbol;nonterm;phrase;adjp' parent='26' role='Constituent'/>
+    <segment id='28' start='106' end='113' features='symbol;token;word;verb;vb' parent='27' role='Constituent'/>
+    <segment id='29' start='114' end='139' features='symbol;nonterm;phrase;pp' parent='27' role='Constituent'/>
+    <segment id='30' start='114' end='116' features='symbol;token;word;to' parent='29' role='Constituent'/>
+    <segment id='31' start='117' end='139' features='symbol;nonterm;phrase;np' parent='29' role='Constituent'/>
+    <segment id='32' start='117' end='131' features='symbol;nonterm;phrase;np' parent='31' role='Constituent'/>
+    <segment id='33' start='117' end='121' features='symbol;token;word;pronoun;prps' parent='32' role='Constituent'/>
+    <segment id='34' start='122' end='125' features='symbol;token;word;noun;proper;jj' parent='32' role='Constituent'/>
+    <segment id='35' start='126' end='131' features='symbol;token;word;noun;common;nn' parent='32' role='Constituent'/>
+    <segment id='36' start='132' end='139' features='symbol;nonterm;phrase;pp' parent='31' role='Constituent'/>
+    <segment id='37' start='132' end='134' features='symbol;token;word;prep;in' parent='36' role='Constituent'/>
+    <segment id='38' start='135' end='139' features='symbol;nonterm;phrase;np' parent='36' role='Constituent'/>
+    <segment id='39' start='135' end='139' features='symbol;token;word;noun;common;nn' parent='38' role='Constituent'/>
+    <segment id='40' start='140' end='141' features='symbol;token;punctuation;period' parent='26' role='Constituent'/>
+    <segment id='41' start='142' end='172' features='symbol;nonterm;root'/>
+    <segment id='42' start='142' end='172' features='symbol;nonterm;sentence;s' parent='41' role='Constituent'/>
+    <segment id='43' start='142' end='144' features='symbol;nonterm;phrase;np' parent='42' role='Constituent'/>
+    <segment id='44' start='142' end='144' features='symbol;token;word;pronoun;prp' parent='43' role='Constituent'/>
+    <segment id='45' start='145' end='170' features='symbol;nonterm;phrase;vp' parent='42' role='Constituent'/>
+    <segment id='46' start='145' end='149' features='symbol;token;word;verb;vbp' parent='45' role='Constituent'/>
+    <segment id='47' start='150' end='170' features='symbol;nonterm;phrase;vp' parent='45' role='Constituent'/>
+    <segment id='48' start='150' end='161' features='symbol;token;word;verb;vbn' parent='47' role='Constituent'/>
+    <segment id='49' start='162' end='170' features='symbol;nonterm;phrase;pp' parent='47' role='Constituent'/>
+    <segment id='50' start='162' end='166' features='symbol;token;word;prep;in' parent='49' role='Constituent'/>
+    <segment id='51' start='167' end='170' features='symbol;nonterm;phrase;np' parent='49' role='Constituent'/>
+    <segment id='52' start='167' end='170' features='symbol;token;word;pronoun;prp' parent='51' role='Constituent'/>
+    <segment id='53' start='171' end='172' features='symbol;token;punctuation;period' parent='42' role='Constituent'/>
+    <segment id='54' start='173' end='243' features='symbol;nonterm;root'/>
+    <segment id='55' start='173' end='243' features='symbol;nonterm;sentence;s' parent='54' role='Constituent'/>
+    <segment id='56' start='173' end='190' features='symbol;nonterm;phrase;np' parent='55' role='Constituent'/>
+    <segment id='57' start='173' end='183' features='symbol;nonterm;phrase;np' parent='56' role='Constituent'/>
+    <segment id='58' start='173' end='183' features='symbol;token;word;noun;common;nn' parent='57' role='Constituent'/>
+    <segment id='59' start='184' end='190' features='symbol;nonterm;sentence;sbar' parent='56' role='Constituent'/>
+    <segment id='60' start='184' end='190' features='symbol;nonterm;sentence;s' parent='59' role='Constituent'/>
+    <segment id='61' start='184' end='187' features='symbol;nonterm;phrase;np' parent='60' role='Constituent'/>
+    <segment id='62' start='184' end='187' features='symbol;token;word;pronoun;prp' parent='61' role='Constituent'/>
+    <segment id='63' start='188' end='190' features='symbol;nonterm;phrase;vp' parent='60' role='Constituent'/>
+    <segment id='64' start='188' end='190' features='symbol;token;word;verb;vbp' parent='63' role='Constituent'/>
+    <segment id='65' start='191' end='192' features='symbol;token;punctuation;comma' parent='55' role='Constituent'/>
+    <segment id='66' start='193' end='203' features='symbol;nonterm;phrase;advp' parent='55' role='Constituent'/>
+    <segment id='67' start='193' end='203' features='symbol;token;word;adverb;rb' parent='66' role='Constituent'/>
+    <segment id='68' start='204' end='207' features='symbol;nonterm;phrase;np' parent='55' role='Constituent'/>
+    <segment id='69' start='204' end='207' features='symbol;token;word;pronoun;prp' parent='68' role='Constituent'/>
+    <segment id='70' start='208' end='241' features='symbol;nonterm;phrase;vp' parent='55' role='Constituent'/>
+    <segment id='71' start='208' end='210' features='symbol;token;word;verb;vbp' parent='70' role='Constituent'/>
+    <segment id='72' start='211' end='232' features='symbol;nonterm;prn' parent='70' role='Constituent'/>
+    <segment id='73' start='211' end='212' features='symbol;token;punctuation;comma' parent='72' role='Constituent'/>
+    <segment id='74' start='213' end='230' features='symbol;nonterm;sentence;s' parent='72' role='Constituent'/>
+    <segment id='75' start='213' end='225' features='symbol;nonterm;phrase;np' parent='74' role='Constituent'/>
+    <segment id='76' start='213' end='221' features='symbol;token;word;noun;common;nn' parent='75' role='Constituent'/>
+    <segment id='77' start='222' end='225' features='symbol;token;word;noun;common;nn' parent='75' role='Constituent'/>
+    <segment id='78' start='226' end='230' features='symbol;nonterm;phrase;vp' parent='74' role='Constituent'/>
+    <segment id='79' start='226' end='230' features='symbol;token;word;verb;vbp' parent='78' role='Constituent'/>
+    <segment id='80' start='231' end='232' features='symbol;token;punctuation;comma' parent='72' role='Constituent'/>
+    <segment id='81' start='233' end='241' features='symbol;nonterm;phrase;np' parent='70' role='Constituent'/>
+    <segment id='82' start='233' end='241' features='symbol;token;word;noun;common;nn' parent='81' role='Constituent'/>
+    <segment id='83' start='242' end='243' features='symbol;token;punctuation;period' parent='55' role='Constituent'/>
+    <segment id='84' start='244' end='314' features='symbol;nonterm;root'/>
+    <segment id='85' start='244' end='314' features='symbol;nonterm;sentence;s' parent='84' role='Constituent'/>
+    <segment id='86' start='244' end='261' features='symbol;nonterm;phrase;np' parent='85' role='Constituent'/>
+    <segment id='87' start='244' end='254' features='symbol;nonterm;phrase;np' parent='86' role='Constituent'/>
+    <segment id='88' start='244' end='254' features='symbol;token;word;noun;common;nn' parent='87' role='Constituent'/>
+    <segment id='89' start='255' end='261' features='symbol;nonterm;sentence;sbar' parent='86' role='Constituent'/>
+    <segment id='90' start='255' end='261' features='symbol;nonterm;sentence;s' parent='89' role='Constituent'/>
+    <segment id='91' start='255' end='258' features='symbol;nonterm;phrase;np' parent='90' role='Constituent'/>
+    <segment id='92' start='255' end='258' features='symbol;token;word;pronoun;prp' parent='91' role='Constituent'/>
+    <segment id='93' start='259' end='261' features='symbol;nonterm;phrase;vp' parent='90' role='Constituent'/>
+    <segment id='94' start='259' end='261' features='symbol;token;word;verb;vbp' parent='93' role='Constituent'/>
+    <segment id='95' start='262' end='263' features='symbol;token;punctuation;comma' parent='85' role='Constituent'/>
+    <segment id='96' start='264' end='274' features='symbol;nonterm;phrase;advp' parent='85' role='Constituent'/>
+    <segment id='97' start='264' end='274' features='symbol;token;word;adverb;rb' parent='96' role='Constituent'/>
+    <segment id='98' start='275' end='278' features='symbol;nonterm;phrase;np' parent='85' role='Constituent'/>
+    <segment id='99' start='275' end='278' features='symbol;token;word;pronoun;prp' parent='98' role='Constituent'/>
+    <segment id='100' start='279' end='312' features='symbol;nonterm;phrase;vp' parent='85' role='Constituent'/>
+    <segment id='101' start='279' end='281' features='symbol;token;word;verb;vbp' parent='100' role='Constituent'/>
+    <segment id='102' start='282' end='303' features='symbol;nonterm;prn' parent='100' role='Constituent'/>
+    <segment id='103' start='282' end='283' features='symbol;token;punctuation;comma' parent='102' role='Constituent'/>
+    <segment id='104' start='284' end='301' features='symbol;nonterm;sentence;s' parent='102' role='Constituent'/>
+    <segment id='105' start='284' end='296' features='symbol;nonterm;phrase;np' parent='104' role='Constituent'/>
+    <segment id='106' start='284' end='292' features='symbol;token;word;noun;common;nn' parent='105' role='Constituent'/>
+    <segment id='107' start='293' end='296' features='symbol;token;word;noun;common;nn' parent='105' role='Constituent'/>
+    <segment id='108' start='297' end='301' features='symbol;nonterm;phrase;vp' parent='104' role='Constituent'/>
+    <segment id='109' start='297' end='301' features='symbol;token;word;verb;vbp' parent='108' role='Constituent'/>
+    <segment id='110' start='302' end='303' features='symbol;token;punctuation;comma' parent='102' role='Constituent'/>
+    <segment id='111' start='304' end='312' features='symbol;nonterm;phrase;np' parent='100' role='Constituent'/>
+    <segment id='112' start='304' end='312' features='symbol;token;word;noun;common;nn' parent='111' role='Constituent'/>
+    <segment id='113' start='313' end='314' features='symbol;token;punctuation;period' parent='85' role='Constituent'/>
+    <segment id='114' start='315' end='385' features='symbol;nonterm;root'/>
+    <segment id='115' start='315' end='385' features='symbol;nonterm;sentence;s' parent='114' role='Constituent'/>
+    <segment id='116' start='315' end='332' features='symbol;nonterm;phrase;np' parent='115' role='Constituent'/>
+    <segment id='117' start='315' end='325' features='symbol;nonterm;phrase;np' parent='116' role='Constituent'/>
+    <segment id='118' start='315' end='325' features='symbol;token;word;noun;common;nn' parent='117' role='Constituent'/>
+    <segment id='119' start='326' end='332' features='symbol;nonterm;sentence;sbar' parent='116' role='Constituent'/>
+    <segment id='120' start='326' end='332' features='symbol;nonterm;sentence;s' parent='119' role='Constituent'/>
+    <segment id='121' start='326' end='329' features='symbol;nonterm;phrase;np' parent='120' role='Constituent'/>
+    <segment id='122' start='326' end='329' features='symbol;token;word;pronoun;prp' parent='121' role='Constituent'/>
+    <segment id='123' start='330' end='332' features='symbol;nonterm;phrase;vp' parent='120' role='Constituent'/>
+    <segment id='124' start='330' end='332' features='symbol;token;word;verb;vbp' parent='123' role='Constituent'/>
+    <segment id='125' start='333' end='334' features='symbol;token;punctuation;comma' parent='115' role='Constituent'/>
+    <segment id='126' start='335' end='345' features='symbol;nonterm;phrase;advp' parent='115' role='Constituent'/>
+    <segment id='127' start='335' end='345' features='symbol;token;word;adverb;rb' parent='126' role='Constituent'/>
+    <segment id='128' start='346' end='349' features='symbol;nonterm;phrase;np' parent='115' role='Constituent'/>
+    <segment id='129' start='346' end='349' features='symbol;token;word;pronoun;prp' parent='128' role='Constituent'/>
+    <segment id='130' start='350' end='383' features='symbol;nonterm;phrase;vp' parent='115' role='Constituent'/>
+    <segment id='131' start='350' end='352' features='symbol;token;word;verb;vbp' parent='130' role='Constituent'/>
+    <segment id='132' start='353' end='374' features='symbol;nonterm;prn' parent='130' role='Constituent'/>
+    <segment id='133' start='353' end='354' features='symbol;token;punctuation;comma' parent='132' role='Constituent'/>
+    <segment id='134' start='355' end='372' features='symbol;nonterm;sentence;s' parent='132' role='Constituent'/>
+    <segment id='135' start='355' end='367' features='symbol;nonterm;phrase;np' parent='134' role='Constituent'/>
+    <segment id='136' start='355' end='363' features='symbol;token;word;noun;common;nn' parent='135' role='Constituent'/>
+    <segment id='137' start='364' end='367' features='symbol;token;word;noun;common;nn' parent='135' role='Constituent'/>
+    <segment id='138' start='368' end='372' features='symbol;nonterm;phrase;vp' parent='134' role='Constituent'/>
+    <segment id='139' start='368' end='372' features='symbol;token;word;verb;vbp' parent='138' role='Constituent'/>
+    <segment id='140' start='373' end='374' features='symbol;token;punctuation;comma' parent='132' role='Constituent'/>
+    <segment id='141' start='375' end='383' features='symbol;nonterm;phrase;np' parent='130' role='Constituent'/>
+    <segment id='142' start='375' end='383' features='symbol;token;word;noun;common;nn' parent='141' role='Constituent'/>
+    <segment id='143' start='384' end='385' features='symbol;token;punctuation;period' parent='115' role='Constituent'/>
+    <segment id='144' start='386' end='456' features='symbol;nonterm;root'/>
+    <segment id='145' start='386' end='456' features='symbol;nonterm;sentence;s' parent='144' role='Constituent'/>
+    <segment id='146' start='386' end='403' features='symbol;nonterm;phrase;np' parent='145' role='Constituent'/>
+    <segment id='147' start='386' end='396' features='symbol;nonterm;phrase;np' parent='146' role='Constituent'/>
+    <segment id='148' start='386' end='396' features='symbol;token;word;noun;common;nn' parent='147' role='Constituent'/>
+    <segment id='149' start='397' end='403' features='symbol;nonterm;sentence;sbar' parent='146' role='Constituent'/>
+    <segment id='150' start='397' end='403' features='symbol;nonterm;sentence;s' parent='149' role='Constituent'/>
+    <segment id='151' start='397' end='400' features='symbol;nonterm;phrase;np' parent='150' role='Constituent'/>
+    <segment id='152' start='397' end='400' features='symbol;token;word;pronoun;prp' parent='151' role='Constituent'/>
+    <segment id='153' start='401' end='403' features='symbol;nonterm;phrase;vp' parent='150' role='Constituent'/>
+    <segment id='154' start='401' end='403' features='symbol;token;word;verb;vbp' parent='153' role='Constituent'/>
+    <segment id='155' start='404' end='405' features='symbol;token;punctuation;comma' parent='145' role='Constituent'/>
+    <segment id='156' start='406' end='416' features='symbol;nonterm;phrase;advp' parent='145' role='Constituent'/>
+    <segment id='157' start='406' end='416' features='symbol;token;word;adverb;rb' parent='156' role='Constituent'/>
+    <segment id='158' start='417' end='420' features='symbol;nonterm;phrase;np' parent='145' role='Constituent'/>
+    <segment id='159' start='417' end='420' features='symbol;token;word;pronoun;prp' parent='158' role='Constituent'/>
+    <segment id='160' start='421' end='454' features='symbol;nonterm;phrase;vp' parent='145' role='Constituent'/>
+    <segment id='161' start='421' end='423' features='symbol;token;word;verb;vbp' parent='160' role='Constituent'/>
+    <segment id='162' start='424' end='445' features='symbol;nonterm;prn' parent='160' role='Constituent'/>
+    <segment id='163' start='424' end='425' features='symbol;token;punctuation;comma' parent='162' role='Constituent'/>
+    <segment id='164' start='426' end='443' features='symbol;nonterm;sentence;s' parent='162' role='Constituent'/>
+    <segment id='165' start='426' end='438' features='symbol;nonterm;phrase;np' parent='164' role='Constituent'/>
+    <segment id='166' start='426' end='434' features='symbol;token;word;noun;common;nn' parent='165' role='Constituent'/>
+    <segment id='167' start='435' end='438' features='symbol;token;word;noun;common;nn' parent='165' role='Constituent'/>
+    <segment id='168' start='439' end='443' features='symbol;nonterm;phrase;vp' parent='164' role='Constituent'/>
+    <segment id='169' start='439' end='443' features='symbol;token;word;verb;vbp' parent='168' role='Constituent'/>
+    <segment id='170' start='444' end='445' features='symbol;token;punctuation;comma' parent='162' role='Constituent'/>
+    <segment id='171' start='446' end='454' features='symbol;nonterm;phrase;np' parent='160' role='Constituent'/>
+    <segment id='172' start='446' end='454' features='symbol;token;word;noun;common;nn' parent='171' role='Constituent'/>
+    <segment id='173' start='455' end='456' features='symbol;token;punctuation;period' parent='145' role='Constituent'/>
+    <segment id='174' start='457' end='472' features='symbol;nonterm;root'/>
+    <segment id='175' start='457' end='472' features='symbol;nonterm;sentence;s' parent='174' role='Constituent'/>
+    <segment id='176' start='457' end='470' features='symbol;nonterm;phrase;vp' parent='175' role='Constituent'/>
+    <segment id='177' start='457' end='464' features='symbol;token;word;verb;vb' parent='176' role='Constituent'/>
+    <segment id='178' start='465' end='467' features='symbol;nonterm;phrase;np' parent='176' role='Constituent'/>
+    <segment id='179' start='465' end='467' features='symbol;token;word;pronoun;prp' parent='178' role='Constituent'/>
+    <segment id='180' start='468' end='470' features='symbol;nonterm;phrase;pp' parent='176' role='Constituent'/>
+    <segment id='181' start='468' end='470' features='symbol;token;word;prep;in' parent='180' role='Constituent'/>
+    <segment id='182' start='471' end='472' features='symbol;token;punctuation;period' parent='175' role='Constituent'/>
+    <segment id='183' start='473' end='490' features='symbol;nonterm;root'/>
+    <segment id='184' start='473' end='490' features='symbol;unknown;frag' parent='183' role='Constituent'/>
+    <segment id='185' start='473' end='479' features='symbol;nonterm;phrase;advp' parent='184' role='Constituent'/>
+    <segment id='186' start='473' end='479' features='symbol;token;word;adverb;rb' parent='185' role='Constituent'/>
+    <segment id='187' start='480' end='481' features='symbol;token;punctuation;comma' parent='184' role='Constituent'/>
+    <segment id='188' start='482' end='488' features='symbol;nonterm;phrase;advp' parent='184' role='Constituent'/>
+    <segment id='189' start='482' end='488' features='symbol;token;word;adverb;rb' parent='188' role='Constituent'/>
+    <segment id='190' start='489' end='490' features='symbol;token;punctuation;period' parent='184' role='Constituent'/>
+    <segment id='191' start='491' end='506' features='symbol;nonterm;root'/>
+    <segment id='192' start='491' end='506' features='symbol;nonterm;sentence;s' parent='191' role='Constituent'/>
+    <segment id='193' start='491' end='504' features='symbol;nonterm;phrase;vp' parent='192' role='Constituent'/>
+    <segment id='194' start='491' end='498' features='symbol;token;word;verb;vb' parent='193' role='Constituent'/>
+    <segment id='195' start='499' end='501' features='symbol;nonterm;phrase;np' parent='193' role='Constituent'/>
+    <segment id='196' start='499' end='501' features='symbol;token;word;pronoun;prp' parent='195' role='Constituent'/>
+    <segment id='197' start='502' end='504' features='symbol;nonterm;phrase;pp' parent='193' role='Constituent'/>
+    <segment id='198' start='502' end='504' features='symbol;token;word;prep;in' parent='197' role='Constituent'/>
+    <segment id='199' start='505' end='506' features='symbol;token;punctuation;period' parent='192' role='Constituent'/>
+    <segment id='200' start='507' end='524' features='symbol;nonterm;root'/>
+    <segment id='201' start='507' end='524' features='symbol;unknown;frag' parent='200' role='Constituent'/>
+    <segment id='202' start='507' end='513' features='symbol;nonterm;phrase;advp' parent='201' role='Constituent'/>
+    <segment id='203' start='507' end='513' features='symbol;token;word;adverb;rb' parent='202' role='Constituent'/>
+    <segment id='204' start='514' end='515' features='symbol;token;punctuation;comma' parent='201' role='Constituent'/>
+    <segment id='205' start='516' end='522' features='symbol;nonterm;phrase;advp' parent='201' role='Constituent'/>
+    <segment id='206' start='516' end='522' features='symbol;token;word;adverb;rb' parent='205' role='Constituent'/>
+    <segment id='207' start='523' end='524' features='symbol;token;punctuation;period' parent='201' role='Constituent'/>
+    <segment id='208' start='525' end='562' features='symbol;nonterm;root'/>
+    <segment id='209' start='525' end='562' features='symbol;nonterm;sentence;s' parent='208' role='Constituent'/>
+    <segment id='210' start='525' end='528' features='symbol;nonterm;phrase;advp' parent='209' role='Constituent'/>
+    <segment id='211' start='525' end='528' features='symbol;token;word;adverb;rb' parent='210' role='Constituent'/>
+    <segment id='212' start='529' end='531' features='symbol;nonterm;phrase;np' parent='209' role='Constituent'/>
+    <segment id='213' start='529' end='531' features='symbol;token;word;pronoun;prp' parent='212' role='Constituent'/>
+    <segment id='214' start='532' end='560' features='symbol;nonterm;phrase;vp' parent='209' role='Constituent'/>
+    <segment id='215' start='532' end='534' features='symbol;token;word;verb;vbz' parent='214' role='Constituent'/>
+    <segment id='216' start='535' end='538' features='symbol;token;word;adverb;rb' parent='214' role='Constituent'/>
+    <segment id='217' start='539' end='543' features='symbol;nonterm;phrase;advp' parent='214' role='Constituent'/>
+    <segment id='218' start='539' end='543' features='symbol;token;word;adverb;rb' parent='217' role='Constituent'/>
+    <segment id='219' start='544' end='560' features='symbol;nonterm;phrase;np' parent='214' role='Constituent'/>
+    <segment id='220' start='544' end='552' features='symbol;nonterm;phrase;np' parent='219' role='Constituent'/>
+    <segment id='221' start='544' end='545' features='symbol;token;word;determiner;dt' parent='220' role='Constituent'/>
+    <segment id='222' start='546' end='552' features='symbol;token;word;noun;common;nn' parent='220' role='Constituent'/>
+    <segment id='223' start='553' end='560' features='symbol;nonterm;phrase;pp' parent='219' role='Constituent'/>
+    <segment id='224' start='553' end='555' features='symbol;token;word;prep;in' parent='223' role='Constituent'/>
+    <segment id='225' start='556' end='560' features='symbol;nonterm;phrase;np' parent='223' role='Constituent'/>
+    <segment id='226' start='556' end='560' features='symbol;token;word;noun;common;nn' parent='225' role='Constituent'/>
+    <segment id='227' start='561' end='562' features='symbol;token;punctuation;period' parent='209' role='Constituent'/>
+  </segments>
+</document>

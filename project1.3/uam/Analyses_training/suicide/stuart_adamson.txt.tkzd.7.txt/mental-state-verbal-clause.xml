@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/stuart_adamson.txt.tkzd.7.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='248' end='288' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='248' end='288' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='340' end='371' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='340' end='371' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='636' end='676' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='769' end='809' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='769' end='809' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='861' end='892' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='861' end='892' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='1182' end='1222' features='mental-state-verbal-clause' state='active'/>
+      <segment id='11' start='1315' end='1355' features='mental-state-verbal-clause' state='active'/>
+      <segment id='12' start='1315' end='1355' features='mental-state-verbal-clause' state='active'/>
+      <segment id='13' start='1407' end='1438' features='mental-state-verbal-clause' state='active'/>
+      <segment id='14' start='1407' end='1438' features='mental-state-verbal-clause' state='active'/>
+      <segment id='15' start='1485' end='1525' features='mental-state-verbal-clause' state='active'/>
+      <segment id='16' start='1485' end='1525' features='mental-state-verbal-clause' state='active'/>
+      <segment id='17' start='1577' end='1608' features='mental-state-verbal-clause' state='active'/>
+      <segment id='18' start='1577' end='1608' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

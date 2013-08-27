@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/neil_young.10.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='250' end='272' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='273' end='290' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='295' end='317' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='538' end='560' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='811' end='833' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

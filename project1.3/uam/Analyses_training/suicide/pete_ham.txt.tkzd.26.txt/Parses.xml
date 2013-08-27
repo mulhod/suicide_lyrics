@@ -1,0 +1,222 @@
+<document>
+  <header>
+<lang>english</lang>
+<complete>100%</complete>
+  </header>
+  <segments>
+     <segment id='1' start='60' end='104' features='positive-clause;nonmodal-clause;past-clause;finite-clause;not-perfect-aspect;no-connector;simple-finite-clause;grammatical-unit;simple-past;interrogative-clause;no-do-insert;clause;not-progressive-aspect;active-clause'/>
+    <segment id='2' start='60' end='63' features='word;lexical-verb;past-verb;grammatical-unit;token;verb' parent='1' role='fin'/>
+    <segment id='3' start='64' end='66' features='group;nonwh-noun-phrase;singular-phrase;grammatical-unit;pronominal-phrase;np' parent='1' role='subject'/>
+    <segment id='4' start='64' end='66' features='word;pronoun;grammatical-unit;nonwh-pronoun;singular-pronoun;token' parent='3' role='thing'/>
+    <segment id='5' start='67' end='102' features='positive-clause;nonmodal-clause;relative-clause;clause;simple-present;finite-clause;not-perfect-aspect;no-connector;grammatical-unit;active-clause;intransitive-clause;not-progressive-aspect;present-clause;doing-clause;no-do-insert' parent='1' role='unkn'/>
+    <segment id='6' start='67' end='71' features='np;grammatical-unit;group;wh-noun-phrase' parent='5' role='relpron'/>
+    <segment id='7' start='67' end='71' features='grammatical-unit;token;nonwh-determiner;word;determiner' parent='6' role='unkn'/>
+    <segment id='8' start='72' end='77' features='word;doing-verb;lexical-verb;grammatical-unit;token;verb;present-verb;intransitive-verb' parent='5' role='pred'/>
+    <segment id='9' start='78' end='84' features='positive-clause;nonmodal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;no-connector;simple-finite-clause;grammatical-unit;active-clause;mental-clause;not-progressive-aspect;present-clause;simple-present;no-do-insert' parent='5' role='object'/>
+    <segment id='10' start='78' end='79' features='np;grammatical-unit;nonwh-noun-phrase;group' parent='9' role='subject'/>
+    <segment id='11' start='78' end='79' features='' parent='10' role='unkn'/>
+    <segment id='12' start='80' end='84' features='word;lexical-verb;mental-verb;grammatical-unit;token;verb;infinitive-verb' parent='9' role='pred'/>
+    <segment id='13' start='85' end='86' features='grammatical-unit;token;punctuation;comma' parent='5' role='sep'/>
+    <segment id='14' start='87' end='102' features='positive-clause;nonmodal-clause;relative-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;no-connector;simple-finite-clause;grammatical-unit;active-clause;mental-clause;not-progressive-aspect;present-clause;simple-present;no-do-insert' parent='5' role='object'/>
+    <segment id='15' start='87' end='92' features='grammatical-unit;group;adverbial-phrase;wh-adverbial-phrase' parent='14' role='relpron'/>
+    <segment id='16' start='87' end='92' features='grammatical-unit;token;word;adverb;wh-adverb' parent='15' role='unkn'/>
+    <segment id='17' start='93' end='97' features='group;nonwh-noun-phrase;singular-phrase;grammatical-unit;pronominal-phrase;np' parent='14' role='subject'/>
+    <segment id='18' start='93' end='97' features='word;pronoun;grammatical-unit;nonwh-pronoun;singular-pronoun;token' parent='17' role='thing'/>
+    <segment id='19' start='98' end='102' features='word;lexical-verb;mental-verb;grammatical-unit;token;verb;present-verb' parent='14' role='pred'/>
+    <segment id='20' start='103' end='104' features='grammatical-unit;token;punctuation;period' parent='1' role='punct'/>
+    <segment id='21' start='105' end='124' features='positive-clause;nonmodal-clause;clause;simple-present;finite-clause;not-perfect-aspect;no-connector;grammatical-unit;active-clause;intransitive-clause;not-progressive-aspect;present-clause;doing-clause;no-do-insert'/>
+    <segment id='22' start='105' end='110' features='word;doing-verb;lexical-verb;grammatical-unit;token;verb;3ps-verb;intransitive-verb' parent='21' role='pred'/>
+    <segment id='23' start='111' end='122' features='grammatical-unit;nonwh-prep-phrase;group;prep-phrase' parent='21' role='adjunct'/>
+    <segment id='24' start='111' end='113' features='normal-prep;grammatical-unit;token;word;preposition' parent='23' role='op'/>
+    <segment id='25' start='114' end='122' features='group;common-phrase;nonwh-noun-phrase;singular-phrase;grammatical-unit;np' parent='23' role='complementiser'/>
+    <segment id='26' start='114' end='117' features='grammatical-unit;token;nonwh-determiner;word;determiner' parent='25' role='deict'/>
+    <segment id='27' start='118' end='122' features='word;singular-noun;grammatical-unit;token;noun;common-noun' parent='25' role='thing'/>
+    <segment id='28' start='123' end='124' features='grammatical-unit;token;punctuation;period' parent='21' role='punct'/>
+    <segment id='29' start='125' end='185' features='positive-clause;mental-clause;modal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;true-modal-clause;simple-finite-clause;grammatical-unit;active-clause;simple-modal;not-progressive-aspect;no-connector'/>
+    <segment id='30' start='125' end='126' features='np;grammatical-unit;nonwh-noun-phrase;group' parent='29' role='subject'/>
+    <segment id='31' start='125' end='126' features='' parent='30' role='unkn'/>
+    <segment id='32' start='127' end='130' features='grammatical-unit;token;verb;word;modal-aux' parent='29' role='mod'/>
+    <segment id='33' start='131' end='136' features='word;lexical-verb;mental-verb;grammatical-unit;token;verb;infinitive-verb' parent='29' role='pred'/>
+    <segment id='34' start='137' end='183' features='positive-clause;clause;infinitive-clause;transitive-clause;not-perfect-aspect;no-connector;grammatical-unit;active-clause;not-progressive-aspect;ditransitive-clause;nonfinite-clause;doing-clause' parent='29' role='object'/>
+    <segment id='35' start='137' end='139' features='grammatical-unit;token;word;to-prep;preposition' parent='34' role='to'/>
+    <segment id='36' start='140' end='143' features='word;doing-verb;lexical-verb;ditransitive-verb;grammatical-unit;token;verb;infinitive-verb' parent='34' role='pred'/>
+    <segment id='37' start='144' end='158' features='grammatical-unit;nonwh-prep-phrase;group;prep-phrase' parent='34' role='adjunct'/>
+    <segment id='38' start='144' end='146' features='normal-prep;grammatical-unit;token;word;preposition' parent='37' role='op'/>
+    <segment id='39' start='147' end='158' features='grammatical-unit;nonwh-prep-phrase;group;prep-phrase' parent='37' role='unkn'/>
+    <segment id='40' start='147' end='154' features='normal-prep;grammatical-unit;token;word;preposition' parent='39' role='op'/>
+    <segment id='41' start='155' end='158' features='group;nonwh-noun-phrase;singular-phrase;grammatical-unit;pronominal-phrase;np' parent='39' role='complementiser'/>
+    <segment id='42' start='155' end='158' features='word;pronoun;grammatical-unit;nonwh-pronoun;singular-pronoun;token' parent='41' role='thing'/>
+    <segment id='43' start='159' end='183' features='grammatical-unit;nonwh-prep-phrase;group;prep-phrase' parent='34' role='adjunct'/>
+    <segment id='44' start='159' end='162' features='normal-prep;grammatical-unit;token;word;preposition' parent='43' role='op'/>
+    <segment id='45' start='163' end='183' features='group;common-phrase;nonwh-noun-phrase;singular-phrase;grammatical-unit;np' parent='43' role='complementiser'/>
+    <segment id='46' start='163' end='166' features='grammatical-unit;token;nonwh-determiner;word;determiner' parent='45' role='deict'/>
+    <segment id='47' start='167' end='171' features='word;singular-noun;grammatical-unit;token;noun;common-noun' parent='45' role='thing'/>
+    <segment id='48' start='172' end='183' features='grammatical-unit;nonwh-prep-phrase;group;prep-phrase' parent='45' role='qualif'/>
+    <segment id='49' start='172' end='174' features='normal-prep;grammatical-unit;token;word;preposition' parent='48' role='op'/>
+    <segment id='50' start='175' end='183' features='group;common-phrase;nonwh-noun-phrase;singular-phrase;grammatical-unit;np' parent='48' role='complementiser'/>
+    <segment id='51' start='175' end='177' features='word;pronoun;nonwh-pronoun;plural-pronoun;grammatical-unit;token' parent='50' role='deict'/>
+    <segment id='52' start='178' end='183' features='word;singular-noun;grammatical-unit;token;noun;common-noun' parent='50' role='thing'/>
+    <segment id='53' start='184' end='185' features='grammatical-unit;token;punctuation;period' parent='29' role='punct'/>
+    <segment id='54' start='186' end='204' features='positive-clause;modal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;true-modal-clause;simple-finite-clause;grammatical-unit;active-clause;simple-modal;not-progressive-aspect;relational-clause;no-connector'/>
+    <segment id='55' start='186' end='187' features='np;grammatical-unit;nonwh-noun-phrase;group' parent='54' role='subject'/>
+    <segment id='56' start='186' end='187' features='' parent='55' role='unkn'/>
+    <segment id='57' start='188' end='191' features='grammatical-unit;token;verb;word;modal-aux' parent='54' role='mod'/>
+    <segment id='58' start='192' end='194' features='word;lexical-verb;grammatical-unit;token;verb;infinitive-verb;relational-verb' parent='54' role='pred'/>
+    <segment id='59' start='195' end='202' features='group;common-phrase;nonwh-noun-phrase;singular-phrase;grammatical-unit;np' parent='54' role='object'/>
+    <segment id='60' start='195' end='198' features='grammatical-unit;token;nonwh-determiner;word;determiner' parent='59' role='deict'/>
+    <segment id='61' start='199' end='202' features='word;singular-noun;grammatical-unit;token;noun;common-noun' parent='59' role='thing'/>
+    <segment id='62' start='203' end='204' features='grammatical-unit;token;punctuation;period' parent='54' role='punct'/>
+    <segment id='63' start='205' end='225' features='positive-clause;modal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;true-modal-clause;simple-finite-clause;grammatical-unit;active-clause;simple-modal;not-progressive-aspect;relational-clause;no-connector'/>
+    <segment id='64' start='205' end='207' features='group;nonwh-noun-phrase;singular-phrase;grammatical-unit;pronominal-phrase;np' parent='63' role='subject'/>
+    <segment id='65' start='205' end='207' features='word;pronoun;grammatical-unit;nonwh-pronoun;singular-pronoun;token' parent='64' role='thing'/>
+    <segment id='66' start='208' end='211' features='grammatical-unit;token;verb;word;modal-aux' parent='63' role='mod'/>
+    <segment id='67' start='212' end='214' features='word;lexical-verb;grammatical-unit;token;verb;infinitive-verb;relational-verb' parent='63' role='pred'/>
+    <segment id='68' start='215' end='223' features='grammatical-unit;adjectival-phrase;nonwh-adjectival-phrase;group' parent='63' role='complement'/>
+    <segment id='69' start='215' end='223' features='grammatical-unit;token;word;adverb;nonwh-adverb' parent='68' role='head'/>
+    <segment id='70' start='224' end='225' features='grammatical-unit;token;punctuation;period' parent='63' role='punct'/>
+    <segment id='71' start='226' end='261' features='positive-clause;modal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;true-modal-clause;simple-finite-clause;grammatical-unit;active-clause;simple-modal;not-progressive-aspect;relational-clause;no-connector'/>
+    <segment id='72' start='226' end='227' features='np;grammatical-unit;nonwh-noun-phrase;group' parent='71' role='subject'/>
+    <segment id='73' start='226' end='227' features='' parent='72' role='unkn'/>
+    <segment id='74' start='228' end='231' features='grammatical-unit;token;verb;word;modal-aux' parent='71' role='mod'/>
+    <segment id='75' start='232' end='234' features='word;lexical-verb;grammatical-unit;token;verb;infinitive-verb;relational-verb' parent='71' role='pred'/>
+    <segment id='76' start='235' end='259' features='' parent='71' role='unkn'/>
+    <segment id='77' start='235' end='250' features='plural-phrase;group;common-phrase;nonwh-noun-phrase;grammatical-unit;np' parent='76' role='unkn'/>
+    <segment id='78' start='235' end='238' features='grammatical-unit;token;nonwh-determiner;word;determiner' parent='77' role='deict'/>
+    <segment id='79' start='239' end='242' features='grammatical-unit;token;word;cd' parent='77' role='num'/>
+    <segment id='80' start='243' end='250' features='word;grammatical-unit;token;plural-noun;noun;common-noun' parent='77' role='thing'/>
+    <segment id='81' start='251' end='254' features='grammatical-unit;token;conjunction;word' parent='76' role='unkn'/>
+    <segment id='82' start='255' end='259' features='grammatical-unit;group;adverbial-phrase;nonwh-adverbial-phrase' parent='76' role='unkn'/>
+    <segment id='83' start='255' end='259' features='grammatical-unit;token;word;adverb;nonwh-adverb' parent='82' role='head'/>
+    <segment id='84' start='260' end='261' features='grammatical-unit;token;punctuation;period' parent='71' role='punct'/>
+    <segment id='85' start='262' end='278' features='positive-clause;nonmodal-clause;clause;simple-present;finite-clause;not-perfect-aspect;no-connector;grammatical-unit;active-clause;intransitive-clause;not-progressive-aspect;present-clause;doing-clause;no-do-insert'/>
+    <segment id='86' start='262' end='266' features='word;doing-verb;lexical-verb;grammatical-unit;token;verb;infinitive-verb;intransitive-verb' parent='85' role='pred'/>
+    <segment id='87' start='267' end='272' features='grammatical-unit;nonwh-prep-phrase;group;prep-phrase' parent='85' role='adjunct'/>
+    <segment id='88' start='267' end='269' features='normal-prep;grammatical-unit;token;word;preposition' parent='87' role='op'/>
+    <segment id='89' start='270' end='272' features='group;nonwh-noun-phrase;singular-phrase;grammatical-unit;pronominal-phrase;np' parent='87' role='complementiser'/>
+    <segment id='90' start='270' end='272' features='word;pronoun;grammatical-unit;nonwh-pronoun;singular-pronoun;token' parent='89' role='thing'/>
+    <segment id='91' start='273' end='276' features='grammatical-unit;group;adverbial-phrase;nonwh-adverbial-phrase' parent='85' role='adjunct'/>
+    <segment id='92' start='273' end='276' features='grammatical-unit;token;word;adverb;nonwh-adverb' parent='91' role='head'/>
+    <segment id='93' start='277' end='278' features='grammatical-unit;token;punctuation;period' parent='85' role='punct'/>
+    <segment id='94' start='279' end='295' features='group;common-phrase;nonwh-noun-phrase;singular-phrase;grammatical-unit;np'/>
+    <segment id='95' start='279' end='281' features='grammatical-unit;token;word;adverb;nonwh-adverb' parent='94' role='head'/>
+    <segment id='96' start='282' end='283' features='grammatical-unit;token;word;adverb;nonwh-adverb' parent='94' role='head'/>
+    <segment id='97' start='284' end='287' features='grammatical-unit;token;nonwh-determiner;word;determiner' parent='94' role='deict'/>
+    <segment id='98' start='288' end='293' features='word;singular-noun;grammatical-unit;token;noun;common-noun' parent='94' role='thing'/>
+    <segment id='99' start='294' end='295' features='grammatical-unit;token;punctuation;period' parent='94' role='unkn'/>
+    <segment id='100' start='296' end='337' features='positive-clause;verbal-clause;nonmodal-clause;clause;simple-present;finite-clause;not-perfect-aspect;no-connector;grammatical-unit;active-clause;not-progressive-aspect;present-clause;no-do-insert'/>
+    <segment id='101' start='296' end='321' features='negative-clause;modal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;true-modal-clause;simple-finite-clause;grammatical-unit;active-clause;simple-modal;not-progressive-aspect;with-connector;verbal-clause' parent='100' role='adjunct'/>
+    <segment id='102' start='296' end='298' features='normal-prep;grammatical-unit;token;word;preposition' parent='101' role='conj'/>
+    <segment id='103' start='299' end='302' features='group;nonwh-noun-phrase;singular-phrase;grammatical-unit;pronominal-phrase;np' parent='101' role='subject'/>
+    <segment id='104' start='299' end='302' features='word;pronoun;grammatical-unit;nonwh-pronoun;singular-pronoun;token' parent='103' role='thing'/>
+    <segment id='105' start='303' end='309' features='grammatical-unit;token;verb;word;modal-aux' parent='101' role='mod'/>
+    <segment id='106' start='310' end='314' features='word;lexical-verb;grammatical-unit;token;verb;infinitive-verb;verbal-verb' parent='101' role='pred'/>
+    <segment id='107' start='315' end='317' features='group;nonwh-noun-phrase;singular-phrase;grammatical-unit;pronominal-phrase;np' parent='101' role='object'/>
+    <segment id='108' start='315' end='317' features='word;pronoun;grammatical-unit;nonwh-pronoun;singular-pronoun;token' parent='107' role='thing'/>
+    <segment id='109' start='318' end='321' features='np;grammatical-unit;nonwh-noun-phrase;group' parent='101' role='object'/>
+    <segment id='110' start='318' end='321' features='grammatical-unit;token;word;adverb;wh-adverb' parent='109' role='unkn'/>
+    <segment id='111' start='322' end='323' features='grammatical-unit;token;punctuation;comma' parent='100' role='sep'/>
+    <segment id='112' start='324' end='328' features='word;lexical-verb;grammatical-unit;token;verb;infinitive-verb;verbal-verb' parent='100' role='pred'/>
+    <segment id='113' start='329' end='335' features='positive-clause;finite-clause;simple-present;declarative-clause;not-perfect-aspect;no-connector;simple-finite-clause;grammatical-unit;active-clause;clause;not-progressive-aspect' parent='100' role='object'/>
+    <segment id='114' start='329' end='331' features='group;nonwh-noun-phrase;singular-phrase;grammatical-unit;pronominal-phrase;np' parent='113' role='subject'/>
+    <segment id='115' start='329' end='331' features='word;pronoun;grammatical-unit;nonwh-pronoun;singular-pronoun;token' parent='114' role='thing'/>
+    <segment id='116' start='332' end='335' features='grammatical-unit;adjectival-phrase;nonwh-adjectival-phrase;group' parent='113' role='complement'/>
+    <segment id='117' start='332' end='335' features='adjective;grammatical-unit;token;word;simple-adjective' parent='116' role='head'/>
+    <segment id='118' start='336' end='337' features='grammatical-unit;token;punctuation;period' parent='100' role='punct'/>
+    <segment id='119' start='338' end='418' features='positive-clause;mental-clause;modal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;true-modal-clause;simple-finite-clause;grammatical-unit;active-clause;simple-modal;not-progressive-aspect;no-connector'/>
+    <segment id='120' start='338' end='341' features='grammatical-unit;token;conjunction;word' parent='119' role='conj'/>
+    <segment id='121' start='342' end='359' features='np;grammatical-unit;nonwh-noun-phrase;group' parent='119' role='subject'/>
+    <segment id='122' start='342' end='346' features='grammatical-unit;token;word;adverb;nonwh-adverb' parent='121' role='head'/>
+    <segment id='123' start='347' end='350' features='grammatical-unit;token;nonwh-determiner;word;determiner' parent='121' role='deict'/>
+    <segment id='124' start='351' end='355' features='adjective;grammatical-unit;token;word;simple-adjective' parent='121' role='epith'/>
+    <segment id='125' start='356' end='357' features='grammatical-unit;token;punctuation;comma' parent='121' role='sep'/>
+    <segment id='126' start='358' end='359' features='' parent='121' role='unkn'/>
+    <segment id='127' start='360' end='363' features='grammatical-unit;token;verb;word;modal-aux' parent='119' role='mod'/>
+    <segment id='128' start='364' end='369' features='word;lexical-verb;mental-verb;grammatical-unit;token;verb;infinitive-verb' parent='119' role='pred'/>
+    <segment id='129' start='370' end='416' features='positive-clause;clause;infinitive-clause;transitive-clause;not-perfect-aspect;no-connector;grammatical-unit;active-clause;not-progressive-aspect;ditransitive-clause;nonfinite-clause;doing-clause' parent='119' role='object'/>
+    <segment id='130' start='370' end='372' features='grammatical-unit;token;word;to-prep;preposition' parent='129' role='to'/>
+    <segment id='131' start='373' end='376' features='word;doing-verb;lexical-verb;ditransitive-verb;grammatical-unit;token;verb;infinitive-verb' parent='129' role='pred'/>
+    <segment id='132' start='377' end='391' features='grammatical-unit;nonwh-prep-phrase;group;prep-phrase' parent='129' role='adjunct'/>
+    <segment id='133' start='377' end='379' features='normal-prep;grammatical-unit;token;word;preposition' parent='132' role='op'/>
+    <segment id='134' start='380' end='391' features='grammatical-unit;nonwh-prep-phrase;group;prep-phrase' parent='132' role='unkn'/>
+    <segment id='135' start='380' end='387' features='normal-prep;grammatical-unit;token;word;preposition' parent='134' role='op'/>
+    <segment id='136' start='388' end='391' features='group;nonwh-noun-phrase;singular-phrase;grammatical-unit;pronominal-phrase;np' parent='134' role='complementiser'/>
+    <segment id='137' start='388' end='391' features='word;pronoun;grammatical-unit;nonwh-pronoun;singular-pronoun;token' parent='136' role='thing'/>
+    <segment id='138' start='392' end='416' features='grammatical-unit;nonwh-prep-phrase;group;prep-phrase' parent='129' role='adjunct'/>
+    <segment id='139' start='392' end='395' features='normal-prep;grammatical-unit;token;word;preposition' parent='138' role='op'/>
+    <segment id='140' start='396' end='416' features='group;common-phrase;nonwh-noun-phrase;singular-phrase;grammatical-unit;np' parent='138' role='complementiser'/>
+    <segment id='141' start='396' end='399' features='grammatical-unit;token;nonwh-determiner;word;determiner' parent='140' role='deict'/>
+    <segment id='142' start='400' end='404' features='word;singular-noun;grammatical-unit;token;noun;common-noun' parent='140' role='thing'/>
+    <segment id='143' start='405' end='416' features='grammatical-unit;nonwh-prep-phrase;group;prep-phrase' parent='140' role='qualif'/>
+    <segment id='144' start='405' end='407' features='normal-prep;grammatical-unit;token;word;preposition' parent='143' role='op'/>
+    <segment id='145' start='408' end='416' features='group;common-phrase;nonwh-noun-phrase;singular-phrase;grammatical-unit;np' parent='143' role='complementiser'/>
+    <segment id='146' start='408' end='410' features='word;pronoun;nonwh-pronoun;plural-pronoun;grammatical-unit;token' parent='145' role='deict'/>
+    <segment id='147' start='411' end='416' features='word;singular-noun;grammatical-unit;token;noun;common-noun' parent='145' role='thing'/>
+    <segment id='148' start='417' end='418' features='grammatical-unit;token;punctuation;period' parent='119' role='punct'/>
+    <segment id='149' start='419' end='437' features='positive-clause;modal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;true-modal-clause;simple-finite-clause;grammatical-unit;active-clause;simple-modal;not-progressive-aspect;relational-clause;no-connector'/>
+    <segment id='150' start='419' end='420' features='np;grammatical-unit;nonwh-noun-phrase;group' parent='149' role='subject'/>
+    <segment id='151' start='419' end='420' features='' parent='150' role='unkn'/>
+    <segment id='152' start='421' end='424' features='grammatical-unit;token;verb;word;modal-aux' parent='149' role='mod'/>
+    <segment id='153' start='425' end='427' features='word;lexical-verb;grammatical-unit;token;verb;infinitive-verb;relational-verb' parent='149' role='pred'/>
+    <segment id='154' start='428' end='435' features='group;common-phrase;nonwh-noun-phrase;singular-phrase;grammatical-unit;np' parent='149' role='object'/>
+    <segment id='155' start='428' end='431' features='grammatical-unit;token;nonwh-determiner;word;determiner' parent='154' role='deict'/>
+    <segment id='156' start='432' end='435' features='word;singular-noun;grammatical-unit;token;noun;common-noun' parent='154' role='thing'/>
+    <segment id='157' start='436' end='437' features='grammatical-unit;token;punctuation;period' parent='149' role='punct'/>
+    <segment id='158' start='438' end='458' features='positive-clause;modal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;true-modal-clause;simple-finite-clause;grammatical-unit;active-clause;simple-modal;not-progressive-aspect;relational-clause;no-connector'/>
+    <segment id='159' start='438' end='440' features='group;nonwh-noun-phrase;singular-phrase;grammatical-unit;pronominal-phrase;np' parent='158' role='subject'/>
+    <segment id='160' start='438' end='440' features='word;pronoun;grammatical-unit;nonwh-pronoun;singular-pronoun;token' parent='159' role='thing'/>
+    <segment id='161' start='441' end='444' features='grammatical-unit;token;verb;word;modal-aux' parent='158' role='mod'/>
+    <segment id='162' start='445' end='447' features='word;lexical-verb;grammatical-unit;token;verb;infinitive-verb;relational-verb' parent='158' role='pred'/>
+    <segment id='163' start='448' end='456' features='grammatical-unit;adjectival-phrase;nonwh-adjectival-phrase;group' parent='158' role='complement'/>
+    <segment id='164' start='448' end='456' features='grammatical-unit;token;word;adverb;nonwh-adverb' parent='163' role='head'/>
+    <segment id='165' start='457' end='458' features='grammatical-unit;token;punctuation;period' parent='158' role='punct'/>
+    <segment id='166' start='459' end='503' features='positive-clause;modal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;true-modal-clause;simple-finite-clause;grammatical-unit;active-clause;simple-modal;not-progressive-aspect;relational-clause;no-connector'/>
+    <segment id='167' start='459' end='460' features='np;grammatical-unit;nonwh-noun-phrase;group' parent='166' role='subject'/>
+    <segment id='168' start='459' end='460' features='' parent='167' role='unkn'/>
+    <segment id='169' start='461' end='464' features='grammatical-unit;token;verb;word;modal-aux' parent='166' role='mod'/>
+    <segment id='170' start='465' end='467' features='word;lexical-verb;grammatical-unit;token;verb;infinitive-verb;relational-verb' parent='166' role='pred'/>
+    <segment id='171' start='468' end='501' features='' parent='166' role='unkn'/>
+    <segment id='172' start='468' end='483' features='plural-phrase;group;common-phrase;nonwh-noun-phrase;grammatical-unit;np' parent='171' role='unkn'/>
+    <segment id='173' start='468' end='471' features='grammatical-unit;token;nonwh-determiner;word;determiner' parent='172' role='deict'/>
+    <segment id='174' start='472' end='475' features='grammatical-unit;token;word;cd' parent='172' role='num'/>
+    <segment id='175' start='476' end='483' features='word;grammatical-unit;token;plural-noun;noun;common-noun' parent='172' role='thing'/>
+    <segment id='176' start='484' end='487' features='grammatical-unit;token;conjunction;word' parent='171' role='unkn'/>
+    <segment id='177' start='488' end='501' features='grammatical-unit;group;adverbial-phrase;nonwh-adverbial-phrase' parent='171' role='unkn'/>
+    <segment id='178' start='488' end='492' features='grammatical-unit;token;word;adverb;nonwh-adverb' parent='177' role='head'/>
+    <segment id='179' start='493' end='496' features='grammatical-unit;token;conjunction;word' parent='177' role='unkn'/>
+    <segment id='180' start='497' end='501' features='grammatical-unit;token;word;adverb;nonwh-adverb' parent='177' role='head'/>
+    <segment id='181' start='502' end='503' features='grammatical-unit;token;punctuation;period' parent='166' role='punct'/>
+    <segment id='182' start='504' end='522' features='positive-clause;modal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;true-modal-clause;simple-finite-clause;grammatical-unit;active-clause;simple-modal;not-progressive-aspect;relational-clause;no-connector'/>
+    <segment id='183' start='504' end='505' features='np;grammatical-unit;nonwh-noun-phrase;group' parent='182' role='subject'/>
+    <segment id='184' start='504' end='505' features='' parent='183' role='unkn'/>
+    <segment id='185' start='506' end='509' features='grammatical-unit;token;verb;word;modal-aux' parent='182' role='mod'/>
+    <segment id='186' start='510' end='512' features='word;lexical-verb;grammatical-unit;token;verb;infinitive-verb;relational-verb' parent='182' role='pred'/>
+    <segment id='187' start='513' end='520' features='group;common-phrase;nonwh-noun-phrase;singular-phrase;grammatical-unit;np' parent='182' role='object'/>
+    <segment id='188' start='513' end='516' features='grammatical-unit;token;nonwh-determiner;word;determiner' parent='187' role='deict'/>
+    <segment id='189' start='517' end='520' features='word;singular-noun;grammatical-unit;token;noun;common-noun' parent='187' role='thing'/>
+    <segment id='190' start='521' end='522' features='grammatical-unit;token;punctuation;period' parent='182' role='punct'/>
+    <segment id='191' start='523' end='543' features='positive-clause;modal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;true-modal-clause;simple-finite-clause;grammatical-unit;active-clause;simple-modal;not-progressive-aspect;relational-clause;no-connector'/>
+    <segment id='192' start='523' end='525' features='group;nonwh-noun-phrase;singular-phrase;grammatical-unit;pronominal-phrase;np' parent='191' role='subject'/>
+    <segment id='193' start='523' end='525' features='word;pronoun;grammatical-unit;nonwh-pronoun;singular-pronoun;token' parent='192' role='thing'/>
+    <segment id='194' start='526' end='529' features='grammatical-unit;token;verb;word;modal-aux' parent='191' role='mod'/>
+    <segment id='195' start='530' end='532' features='word;lexical-verb;grammatical-unit;token;verb;infinitive-verb;relational-verb' parent='191' role='pred'/>
+    <segment id='196' start='533' end='541' features='grammatical-unit;adjectival-phrase;nonwh-adjectival-phrase;group' parent='191' role='complement'/>
+    <segment id='197' start='533' end='541' features='grammatical-unit;token;word;adverb;nonwh-adverb' parent='196' role='head'/>
+    <segment id='198' start='542' end='543' features='grammatical-unit;token;punctuation;period' parent='191' role='punct'/>
+    <segment id='199' start='544' end='588' features='positive-clause;modal-clause;clause;declarative-clause;finite-clause;not-perfect-aspect;true-modal-clause;simple-finite-clause;grammatical-unit;active-clause;simple-modal;not-progressive-aspect;relational-clause;no-connector'/>
+    <segment id='200' start='544' end='545' features='np;grammatical-unit;nonwh-noun-phrase;group' parent='199' role='subject'/>
+    <segment id='201' start='544' end='545' features='' parent='200' role='unkn'/>
+    <segment id='202' start='546' end='549' features='grammatical-unit;token;verb;word;modal-aux' parent='199' role='mod'/>
+    <segment id='203' start='550' end='552' features='word;lexical-verb;grammatical-unit;token;verb;infinitive-verb;relational-verb' parent='199' role='pred'/>
+    <segment id='204' start='553' end='586' features='' parent='199' role='unkn'/>
+    <segment id='205' start='553' end='568' features='plural-phrase;group;common-phrase;nonwh-noun-phrase;grammatical-unit;np' parent='204' role='unkn'/>
+    <segment id='206' start='553' end='556' features='grammatical-unit;token;nonwh-determiner;word;determiner' parent='205' role='deict'/>
+    <segment id='207' start='557' end='560' features='grammatical-unit;token;word;cd' parent='205' role='num'/>
+    <segment id='208' start='561' end='568' features='word;grammatical-unit;token;plural-noun;noun;common-noun' parent='205' role='thing'/>
+    <segment id='209' start='569' end='572' features='grammatical-unit;token;conjunction;word' parent='204' role='unkn'/>
+    <segment id='210' start='573' end='586' features='grammatical-unit;group;adverbial-phrase;nonwh-adverbial-phrase' parent='204' role='unkn'/>
+    <segment id='211' start='573' end='577' features='grammatical-unit;token;word;adverb;nonwh-adverb' parent='210' role='head'/>
+    <segment id='212' start='578' end='581' features='grammatical-unit;token;conjunction;word' parent='210' role='unkn'/>
+    <segment id='213' start='582' end='586' features='grammatical-unit;token;word;adverb;nonwh-adverb' parent='210' role='head'/>
+    <segment id='214' start='587' end='588' features='grammatical-unit;token;punctuation;period' parent='199' role='punct'/>
+  </segments>
+</document>

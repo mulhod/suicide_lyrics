@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/chuck_schuldiner.1.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='389' end='421' features='passive-clause' state='active'/>
+      <segment id='2' start='976' end='1008' features='passive-clause' state='active'/>
+      <segment id='3' start='1247' end='1279' features='passive-clause' state='active'/>
+    </segments>
+</document>

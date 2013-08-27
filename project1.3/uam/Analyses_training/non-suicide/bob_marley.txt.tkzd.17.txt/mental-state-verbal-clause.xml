@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/bob_marley.txt.tkzd.17.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='89' end='107' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='114' end='170' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='347' end='401' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='470' end='585' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='470' end='585' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='478' end='508' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='779' end='809' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='891' end='915' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='1027' end='1091' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='1097' end='1130' features='mental-state-verbal-clause' state='active'/>
+      <segment id='11' start='1097' end='1130' features='mental-state-verbal-clause' state='active'/>
+      <segment id='12' start='1097' end='1130' features='mental-state-verbal-clause' state='active'/>
+      <segment id='13' start='1145' end='1170' features='mental-state-verbal-clause' state='active'/>
+      <segment id='14' start='1145' end='1170' features='mental-state-verbal-clause' state='active'/>
+      <segment id='15' start='1173' end='1191' features='mental-state-verbal-clause' state='active'/>
+      <segment id='16' start='1198' end='1223' features='mental-state-verbal-clause' state='active'/>
+      <segment id='17' start='1226' end='1277' features='mental-state-verbal-clause' state='active'/>
+      <segment id='18' start='1278' end='1298' features='mental-state-verbal-clause' state='active'/>
+      <segment id='19' start='1307' end='1359' features='mental-state-verbal-clause' state='active'/>
+      <segment id='20' start='1560' end='1595' features='mental-state-verbal-clause' state='active'/>
+      <segment id='21' start='1603' end='1625' features='mental-state-verbal-clause' state='active'/>
+      <segment id='22' start='1603' end='1625' features='mental-state-verbal-clause' state='active'/>
+      <segment id='23' start='1632' end='1676' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

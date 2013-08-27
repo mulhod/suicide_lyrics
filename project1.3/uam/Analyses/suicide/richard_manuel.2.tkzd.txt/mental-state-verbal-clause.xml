@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/richard_manuel.2.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='89' end='131' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='158' end='220' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='187' end='218' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='457' end='488' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='659' end='690' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

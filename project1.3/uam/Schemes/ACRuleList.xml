@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rules>
+  <rule>
+    <type>create_segment</type>
+    <layer>passive-clause</layer>
+    <feature>passive-clause</feature>
+    <query>
+      <type>feature</type>
+      <layer>Parses</layer>
+      <featureset type='simple'>
+        <feature>passive-clause</feature>
+      </featureset>
+      <restrictions>
+      </restrictions>
+    </query>
+  </rule>
+
+  <rule>
+    <type>create_segment</type>
+    <layer>mental-state-verbal-clause</layer>
+    <feature>mental-state-verbal-clause</feature>
+    <query>
+      <type>feature</type>
+      <layer>Parses</layer>
+      <featureset type='simple'>
+        <feature>mental-clause</feature>
+      </featureset>
+      <restrictions>
+        <restriction>
+          <type>mustcontain</type>
+          <immediacy>no</immediacy>
+          <query>
+            <type>string</type>
+            <pattern>\bi\b</pattern>
+          </query>
+        </restriction>
+      </restrictions>
+    </query>
+  </rule>
+
+</rules>

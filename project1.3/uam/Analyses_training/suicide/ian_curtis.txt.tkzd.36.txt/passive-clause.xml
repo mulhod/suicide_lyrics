@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/ian_curtis.txt.tkzd.36.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='63' end='84' features='passive-clause' state='active'/>
+      <segment id='2' start='132' end='153' features='passive-clause' state='active'/>
+      <segment id='3' start='650' end='677' features='passive-clause' state='active'/>
+      <segment id='4' start='678' end='699' features='passive-clause' state='active'/>
+      <segment id='5' start='700' end='727' features='passive-clause' state='active'/>
+      <segment id='6' start='728' end='749' features='passive-clause' state='active'/>
+      <segment id='7' start='808' end='833' features='passive-clause' state='active'/>
+      <segment id='8' start='1069' end='1096' features='passive-clause' state='active'/>
+      <segment id='9' start='1097' end='1118' features='passive-clause' state='active'/>
+      <segment id='10' start='1119' end='1146' features='passive-clause' state='active'/>
+      <segment id='11' start='1147' end='1168' features='passive-clause' state='active'/>
+      <segment id='12' start='1325' end='1408' features='passive-clause' state='active'/>
+      <segment id='13' start='1351' end='1388' features='passive-clause' state='active'/>
+    </segments>
+</document>

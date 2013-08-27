@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/del_shannon.7.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='129' end='163' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='248' end='274' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='303' end='337' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='767' end='790' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

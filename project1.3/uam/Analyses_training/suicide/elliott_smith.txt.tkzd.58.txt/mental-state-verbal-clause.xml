@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/elliott_smith.txt.tkzd.58.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='334' end='397' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='697' end='760' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='877' end='983' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='946' end='981' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='984' end='1151' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='984' end='1151' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='1279' end='1342' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='1433' end='1477' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

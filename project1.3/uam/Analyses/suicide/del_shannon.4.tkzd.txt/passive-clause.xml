@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/del_shannon.4.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='275' end='314' features='passive-clause' state='active'/>
+      <segment id='2' start='317' end='366' features='passive-clause' state='active'/>
+    </segments>
+</document>

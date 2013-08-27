@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/bob_dylan.txt.tkzd.17.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='330' end='387' features='passive-clause' state='active'/>
+      <segment id='2' start='568' end='584' features='passive-clause' state='active'/>
+      <segment id='3' start='591' end='621' features='passive-clause' state='active'/>
+      <segment id='4' start='626' end='647' features='passive-clause' state='active'/>
+      <segment id='5' start='691' end='748' features='passive-clause' state='active'/>
+      <segment id='6' start='1064' end='1121' features='passive-clause' state='active'/>
+      <segment id='7' start='1151' end='1180' features='passive-clause' state='active'/>
+      <segment id='8' start='1215' end='1242' features='passive-clause' state='active'/>
+      <segment id='9' start='1411' end='1468' features='passive-clause' state='active'/>
+      <segment id='10' start='1680' end='1709' features='passive-clause' state='active'/>
+      <segment id='11' start='1753' end='1810' features='passive-clause' state='active'/>
+      <segment id='12' start='2139' end='2196' features='passive-clause' state='active'/>
+      <segment id='13' start='2494' end='2551' features='passive-clause' state='active'/>
+      <segment id='14' start='2881' end='2938' features='passive-clause' state='active'/>
+      <segment id='15' start='3245' end='3302' features='passive-clause' state='active'/>
+    </segments>
+</document>

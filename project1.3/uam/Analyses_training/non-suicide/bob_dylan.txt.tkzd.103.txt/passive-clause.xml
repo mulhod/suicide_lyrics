@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/bob_dylan.txt.tkzd.103.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='506' end='553' features='passive-clause' state='active'/>
+      <segment id='2' start='871' end='891' features='passive-clause' state='active'/>
+      <segment id='3' start='924' end='947' features='passive-clause' state='active'/>
+      <segment id='4' start='1177' end='1191' features='passive-clause' state='active'/>
+      <segment id='5' start='1659' end='1696' features='passive-clause' state='active'/>
+    </segments>
+</document>

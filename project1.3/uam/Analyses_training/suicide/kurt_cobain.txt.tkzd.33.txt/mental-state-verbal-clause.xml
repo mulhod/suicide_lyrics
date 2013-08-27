@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/kurt_cobain.txt.tkzd.33.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='186' end='236' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='206' end='234' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='337' end='387' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='357' end='385' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='443' end='493' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='463' end='491' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='616' end='666' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='636' end='664' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='722' end='772' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='742' end='770' features='mental-state-verbal-clause' state='active'/>
+      <segment id='11' start='828' end='878' features='mental-state-verbal-clause' state='active'/>
+      <segment id='12' start='848' end='876' features='mental-state-verbal-clause' state='active'/>
+      <segment id='13' start='934' end='984' features='mental-state-verbal-clause' state='active'/>
+      <segment id='14' start='954' end='982' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

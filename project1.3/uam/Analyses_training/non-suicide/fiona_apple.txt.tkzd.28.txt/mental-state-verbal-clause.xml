@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/fiona_apple.txt.tkzd.28.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='178' end='189' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='291' end='315' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='556' end='579' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='627' end='681' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='689' end='736' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='711' end='734' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='846' end='914' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='846' end='914' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='925' end='979' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='1011' end='1034' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

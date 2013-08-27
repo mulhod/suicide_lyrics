@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/michael_angelakos_-_manners.1.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='84' end='109' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='84' end='109' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='544' end='554' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='852' end='874' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='950' end='960' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

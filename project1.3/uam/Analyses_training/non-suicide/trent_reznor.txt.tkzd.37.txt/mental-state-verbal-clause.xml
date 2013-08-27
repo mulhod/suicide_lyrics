@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/trent_reznor.txt.tkzd.37.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='377' end='441' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='444' end='478' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='1156' end='1190' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

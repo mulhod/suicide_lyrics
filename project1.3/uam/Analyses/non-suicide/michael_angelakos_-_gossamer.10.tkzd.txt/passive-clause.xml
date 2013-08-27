@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/michael_angelakos_-_gossamer.10.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='539' end='560' features='passive-clause' state='active'/>
+      <segment id='2' start='1247' end='1268' features='passive-clause' state='active'/>
+      <segment id='3' start='1461' end='1478' features='passive-clause' state='active'/>
+      <segment id='4' start='1725' end='1746' features='passive-clause' state='active'/>
+    </segments>
+</document>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/bob_marley.txt.tkzd.22.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='32' end='65' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='82' end='111' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='172' end='193' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='294' end='323' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='340' end='381' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='430' end='474' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='624' end='668' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='714' end='741' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='742' end='760' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='788' end='817' features='mental-state-verbal-clause' state='active'/>
+      <segment id='11' start='834' end='870' features='mental-state-verbal-clause' state='active'/>
+      <segment id='12' start='838' end='868' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

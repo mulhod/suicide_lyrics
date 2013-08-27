@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/ian_curtis.txt.tkzd.31.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='198' end='220' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='467' end='489' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='634' end='671' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/bob_marley.txt.tkzd.4.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='69' end='89' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='90' end='110' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='168' end='188' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='189' end='209' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='236' end='257' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='713' end='731' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='732' end='750' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='875' end='893' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='894' end='912' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='913' end='931' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

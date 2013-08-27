@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/peter_bellamy.7.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='1749' end='1799' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='1818' end='1829' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

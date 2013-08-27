@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/george_harrison.7.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='200' end='237' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='328' end='340' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='606' end='618' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='911' end='941' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

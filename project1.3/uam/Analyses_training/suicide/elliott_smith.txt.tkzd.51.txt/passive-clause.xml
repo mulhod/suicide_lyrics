@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/elliott_smith.txt.tkzd.51.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='337' end='370' features='passive-clause' state='active'/>
+      <segment id='2' start='759' end='792' features='passive-clause' state='active'/>
+      <segment id='3' start='947' end='1000' features='passive-clause' state='active'/>
+      <segment id='4' start='1012' end='1050' features='passive-clause' state='active'/>
+      <segment id='5' start='1249' end='1282' features='passive-clause' state='active'/>
+    </segments>
+</document>

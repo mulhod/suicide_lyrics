@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/mike_ness.txt.tkzd.16.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='598' end='612' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='615' end='655' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

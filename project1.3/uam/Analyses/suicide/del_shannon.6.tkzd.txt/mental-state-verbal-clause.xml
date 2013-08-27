@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/del_shannon.6.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='75' end='118' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='125' end='192' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='195' end='250' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='251' end='301' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='251' end='301' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='366' end='411' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='412' end='455' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='554' end='585' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='774' end='805' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='806' end='837' features='mental-state-verbal-clause' state='active'/>
+      <segment id='11' start='838' end='869' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

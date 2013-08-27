@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/mike_ness.txt.tkzd.22.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='157' end='208' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='157' end='208' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='209' end='272' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='209' end='237' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='367' end='394' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='579' end='647' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='851' end='878' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='997' end='1056' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='1123' end='1191' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='1361' end='1388' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

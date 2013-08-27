@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/paul_simon.6.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='332' end='358' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='332' end='358' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='361' end='388' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='361' end='388' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='391' end='431' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='391' end='431' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='748' end='774' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='748' end='774' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='777' end='804' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='777' end='804' features='mental-state-verbal-clause' state='active'/>
+      <segment id='11' start='807' end='847' features='mental-state-verbal-clause' state='active'/>
+      <segment id='12' start='807' end='847' features='mental-state-verbal-clause' state='active'/>
+      <segment id='13' start='1202' end='1228' features='mental-state-verbal-clause' state='active'/>
+      <segment id='14' start='1202' end='1228' features='mental-state-verbal-clause' state='active'/>
+      <segment id='15' start='1231' end='1258' features='mental-state-verbal-clause' state='active'/>
+      <segment id='16' start='1231' end='1258' features='mental-state-verbal-clause' state='active'/>
+      <segment id='17' start='1261' end='1301' features='mental-state-verbal-clause' state='active'/>
+      <segment id='18' start='1261' end='1301' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

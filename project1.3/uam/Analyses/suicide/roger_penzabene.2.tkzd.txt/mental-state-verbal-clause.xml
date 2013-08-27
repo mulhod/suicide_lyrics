@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/roger_penzabene.2.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='330' end='389' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='330' end='389' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='330' end='389' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='342' end='352' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='548' end='609' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='574' end='607' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='583' end='607' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='1224' end='1236' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='1805' end='1837' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='1878' end='1918' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/kurt_cobain.txt.tkzd.30.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='107' end='122' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='123' end='138' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='139' end='154' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='155' end='170' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='171' end='214' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='770' end='785' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='786' end='801' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='802' end='817' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='818' end='833' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='834' end='856' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

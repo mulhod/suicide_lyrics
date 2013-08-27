@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/trent_reznor.txt.tkzd.10.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='328' end='343' features='passive-clause' state='active'/>
+      <segment id='2' start='344' end='361' features='passive-clause' state='active'/>
+      <segment id='3' start='691' end='706' features='passive-clause' state='active'/>
+      <segment id='4' start='707' end='724' features='passive-clause' state='active'/>
+      <segment id='5' start='738' end='784' features='passive-clause' state='active'/>
+      <segment id='6' start='1031' end='1046' features='passive-clause' state='active'/>
+      <segment id='7' start='1047' end='1064' features='passive-clause' state='active'/>
+      <segment id='8' start='1095' end='1110' features='passive-clause' state='active'/>
+      <segment id='9' start='1111' end='1128' features='passive-clause' state='active'/>
+    </segments>
+</document>

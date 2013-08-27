@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/ben_folds.6.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='127' end='156' features='passive-clause' state='active'/>
+      <segment id='2' start='275' end='335' features='passive-clause' state='active'/>
+      <segment id='3' start='608' end='668' features='passive-clause' state='active'/>
+      <segment id='4' start='740' end='775' features='passive-clause' state='active'/>
+      <segment id='5' start='861' end='911' features='passive-clause' state='active'/>
+      <segment id='6' start='1009' end='1069' features='passive-clause' state='active'/>
+    </segments>
+</document>

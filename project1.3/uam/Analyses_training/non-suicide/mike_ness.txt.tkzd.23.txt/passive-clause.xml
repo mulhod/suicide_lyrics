@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/mike_ness.txt.tkzd.23.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='193' end='213' features='passive-clause' state='active'/>
+      <segment id='2' start='447' end='467' features='passive-clause' state='active'/>
+      <segment id='3' start='650' end='726' features='passive-clause' state='active'/>
+      <segment id='4' start='704' end='724' features='passive-clause' state='active'/>
+      <segment id='5' start='958' end='978' features='passive-clause' state='active'/>
+    </segments>
+</document>

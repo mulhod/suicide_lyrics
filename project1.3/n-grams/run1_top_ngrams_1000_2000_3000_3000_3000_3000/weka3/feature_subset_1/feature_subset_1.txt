@@ -1,0 +1,133 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.ChiSquaredAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     song
+Instances:    533
+Attributes:   110
+[list of attributes omitted]
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 1 class):
+	Chi-squared Ranking Filter
+
+Ranked attributes:
+25.5497    87 average_for_all_n-grams:_non-suicide
+25.2801    88 diff_between_averages_for_all_n-grams
+25.2801    67 diff_between_sums_across_all_n-grams
+22.8791    77 percent_non-suicide_4-grams
+21.6985    98 det/tok
+20.1733    26 (I+mental-verb)/time
+19.8082    75 percent_non-suicide_2-grams
+19.421     81 diff_for_2-gram_percentages
+19.0809    80 diff_for_1-gram_percentages
+17.3079    21 passive/tok
+17.3079    23 passive/time
+17.3079    22 passive/typ
+12.0401    31 neut/typ
+ 0         36 neg/pos_(+.01)
+ 0         35 pos/time
+ 0         50 concreteNoun/tok
+ 0         37 ln(neg/pos_(+.01))
+ 0          2 typ/tok
+ 0         32 neut/time
+ 0          3 typ/time
+ 0         34 pos/typ
+ 0         33 pos/tok
+ 0         51 concreteNoun/typ
+ 0         44 LN(sensual/pos_(+.01))
+ 0         42 sensual/time
+ 0         43 sensual/pos_(+.01)
+ 0         47 actionVerb/tok
+ 0         45 sensual/neg_(+.01)
+ 0         46 LN(sensual/neg_(+.01))
+ 0         49 actionVerb/time
+ 0         38 neg/polar
+ 0         39 pos/polar
+ 0         41 sensual/typ
+ 0         48 actionVerb/typ
+ 0         40 sensual/tok
+ 0         16 LN(1P/2-3P_(+.01))
+ 0         15 1P/2-3P_(+.01)
+ 0         19 1PS/All_Other_Pronouns_(+.01)
+ 0         17 1PS/2-3P_(+.01)
+ 0         18 LN(1PS/2-3P_(+.01))
+ 0         12 2+3p/typ
+ 0         10 1ps/time
+ 0         11 (1PS+.01)/(1PP+.01)
+ 0         14 2+3p/time
+ 0         13 2+3p/tok
+ 0          9 1ps/tok
+ 0         28 neg/typ
+ 0         27 neg/tok
+ 0          5 1p/typ
+ 0         30 neut/tok
+ 0         29 neg/time
+ 0          4 tok/time
+ 0          7 1p/time
+ 0         20 LN(1PS/All_Other_Pronouns_(+.01))
+ 0          8 1ps/typ
+ 0          6 1p/tok
+ 0         24 (I+mental-verb)/tok
+ 0         25 (I+mental-verb)/typ
+ 0         93 adv/tok
+ 0         91 noun/tok
+ 0         92 pronoun/tok
+ 0         96 prep_or_conj_subord/tok
+ 0         94 adv_particle/tok
+ 0         95 conj_coord/tok
+ 0         85 diff_for_6-gram_percentages
+ 0         83 diff_for_4-gram_percentages
+ 0         84 diff_for_5-gram_percentages
+ 0         90 adj/tok
+ 0         86 average_for_all_n-grams:_suicide
+ 0         89 verb/tok
+ 0        107 noun/(pronoun+.01)
+ 0        105 adj/(pronoun+.01)
+ 0        106 adj/(adv+.01)
+ 0        110 conj_coord/(prep_or_conj_subord+.01)
+ 0        108 noun/(adv+.01)
+ 0        109 adv/(pronoun+.01)
+ 0        100 verb/(adj+.01)
+ 0         97 numeral/tok
+ 0         99 there_existential/tok
+ 0        103 verb/(pronoun+.01)
+ 0        104 adj/(noun+.01)
+ 0        101 verb/(adv+.01)
+ 0        102 verb/(noun+.01)
+ 0         61 love/time
+ 0         59 love/tok
+ 0         60 love/typ
+ 0         64 depression/time
+ 0         62 depression/tok
+ 0         63 depression/typ
+ 0         54 death/typ
+ 0         52 concreteNoun/time
+ 0         53 death/tok
+ 0         57 drug/typ
+ 0         58 drug/time
+ 0         55 death/time
+ 0         56 drug/tok
+ 0         76 percent_non-suicide_3-grams
+ 0         73 percent_suicide_6-grams
+ 0         74 percent_non-suicide_1-grams
+ 0         82 diff_for_3-gram_percentages
+ 0         78 percent_non-suicide_5-grams
+ 0         79 percent_non-suicide_6-grams
+ 0         68 percent_suicide_1-grams
+ 0         65 total_polar_value
+ 0         66 average_polar_value
+ 0         71 percent_suicide_4-grams
+ 0         72 percent_suicide_5-grams
+ 0         69 percent_suicide_2-grams
+ 0         70 percent_suicide_3-grams
+
+Selected attributes: 87,88,67,77,98,26,75,81,80,21,23,22,31,36,35,50,37,2,32,3,34,33,51,44,42,43,47,45,46,49,38,39,41,48,40,16,15,19,17,18,12,10,11,14,13,9,28,27,5,30,29,4,7,20,8,6,24,25,93,91,92,96,94,95,85,83,84,90,86,89,107,105,106,110,108,109,100,97,99,103,104,101,102,61,59,60,64,62,63,54,52,53,57,58,55,56,76,73,74,82,78,79,68,65,66,71,72,69,70 : 109
+

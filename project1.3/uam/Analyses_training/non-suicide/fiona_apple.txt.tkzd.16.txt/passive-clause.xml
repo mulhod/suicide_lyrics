@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/fiona_apple.txt.tkzd.16.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='423' end='450' features='passive-clause' state='active'/>
+      <segment id='2' start='1023' end='1050' features='passive-clause' state='active'/>
+      <segment id='3' start='1388' end='1415' features='passive-clause' state='active'/>
+      <segment id='4' start='1555' end='1582' features='passive-clause' state='active'/>
+    </segments>
+</document>

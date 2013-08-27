@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/doug_hopkins.1.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='392' end='408' features='passive-clause' state='active'/>
+      <segment id='2' start='415' end='457' features='passive-clause' state='active'/>
+      <segment id='3' start='872' end='888' features='passive-clause' state='active'/>
+      <segment id='4' start='895' end='937' features='passive-clause' state='active'/>
+      <segment id='5' start='1031' end='1047' features='passive-clause' state='active'/>
+      <segment id='6' start='1054' end='1096' features='passive-clause' state='active'/>
+      <segment id='7' start='1537' end='1553' features='passive-clause' state='active'/>
+      <segment id='8' start='1560' end='1602' features='passive-clause' state='active'/>
+    </segments>
+</document>

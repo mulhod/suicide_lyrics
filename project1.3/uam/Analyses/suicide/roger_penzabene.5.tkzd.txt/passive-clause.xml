@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/roger_penzabene.5.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='151' end='192' features='passive-clause' state='active'/>
+      <segment id='2' start='502' end='523' features='passive-clause' state='active'/>
+      <segment id='3' start='1126' end='1167' features='passive-clause' state='active'/>
+      <segment id='4' start='1657' end='1716' features='passive-clause' state='active'/>
+      <segment id='5' start='1719' end='1760' features='passive-clause' state='active'/>
+    </segments>
+</document>

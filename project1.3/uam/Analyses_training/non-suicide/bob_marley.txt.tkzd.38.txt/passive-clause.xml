@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/bob_marley.txt.tkzd.38.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='49' end='83' features='passive-clause' state='active'/>
+      <segment id='2' start='49' end='65' features='passive-clause' state='active'/>
+      <segment id='3' start='495' end='522' features='passive-clause' state='active'/>
+      <segment id='4' start='495' end='506' features='passive-clause' state='active'/>
+      <segment id='5' start='523' end='550' features='passive-clause' state='active'/>
+      <segment id='6' start='523' end='534' features='passive-clause' state='active'/>
+      <segment id='7' start='551' end='578' features='passive-clause' state='active'/>
+      <segment id='8' start='551' end='562' features='passive-clause' state='active'/>
+      <segment id='9' start='579' end='600' features='passive-clause' state='active'/>
+      <segment id='10' start='853' end='917' features='passive-clause' state='active'/>
+      <segment id='11' start='1058' end='1069' features='passive-clause' state='active'/>
+      <segment id='12' start='1072' end='1083' features='passive-clause' state='active'/>
+      <segment id='13' start='1086' end='1113' features='passive-clause' state='active'/>
+      <segment id='14' start='1086' end='1097' features='passive-clause' state='active'/>
+      <segment id='15' start='1114' end='1135' features='passive-clause' state='active'/>
+      <segment id='16' start='1268' end='1295' features='passive-clause' state='active'/>
+      <segment id='17' start='1268' end='1279' features='passive-clause' state='active'/>
+      <segment id='18' start='1296' end='1323' features='passive-clause' state='active'/>
+      <segment id='19' start='1296' end='1307' features='passive-clause' state='active'/>
+      <segment id='20' start='1324' end='1351' features='passive-clause' state='active'/>
+      <segment id='21' start='1324' end='1335' features='passive-clause' state='active'/>
+    </segments>
+</document>

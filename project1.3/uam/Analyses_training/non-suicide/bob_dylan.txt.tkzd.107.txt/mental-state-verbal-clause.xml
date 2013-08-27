@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/bob_dylan.txt.tkzd.107.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='368' end='449' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='982' end='1001' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='1274' end='1287' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

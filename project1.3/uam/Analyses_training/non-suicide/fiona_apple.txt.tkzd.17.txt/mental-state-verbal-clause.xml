@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/fiona_apple.txt.tkzd.17.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='204' end='226' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='302' end='343' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='424' end='446' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='954' end='975' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='976' end='1023' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='976' end='1023' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='1082' end='1205' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='1082' end='1205' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='1082' end='1205' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='1082' end='1205' features='mental-state-verbal-clause' state='active'/>
+      <segment id='11' start='1090' end='1205' features='mental-state-verbal-clause' state='active'/>
+      <segment id='12' start='1090' end='1205' features='mental-state-verbal-clause' state='active'/>
+      <segment id='13' start='1090' end='1205' features='mental-state-verbal-clause' state='active'/>
+      <segment id='14' start='1090' end='1205' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

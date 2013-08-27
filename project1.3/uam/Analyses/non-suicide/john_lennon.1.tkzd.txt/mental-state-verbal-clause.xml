@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/john_lennon.1.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='352' end='415' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='441' end='462' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='620' end='685' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

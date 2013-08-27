@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/chris_bell.1.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='182' end='231' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='232' end='265' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='366' end='399' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='701' end='736' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='737' end='769' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='770' end='805' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='806' end='838' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='839' end='874' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='875' end='907' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='908' end='939' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

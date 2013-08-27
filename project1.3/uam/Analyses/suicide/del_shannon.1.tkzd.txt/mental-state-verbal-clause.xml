@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/del_shannon.1.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='78' end='143' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='78' end='143' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='78' end='143' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='100' end='143' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='100' end='143' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='234' end='312' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='234' end='312' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='268' end='311' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='268' end='311' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='599' end='663' features='mental-state-verbal-clause' state='active'/>
+      <segment id='11' start='599' end='663' features='mental-state-verbal-clause' state='active'/>
+      <segment id='12' start='599' end='663' features='mental-state-verbal-clause' state='active'/>
+      <segment id='13' start='629' end='650' features='mental-state-verbal-clause' state='active'/>
+      <segment id='14' start='629' end='650' features='mental-state-verbal-clause' state='active'/>
+      <segment id='15' start='957' end='1021' features='mental-state-verbal-clause' state='active'/>
+      <segment id='16' start='957' end='1021' features='mental-state-verbal-clause' state='active'/>
+      <segment id='17' start='957' end='1021' features='mental-state-verbal-clause' state='active'/>
+      <segment id='18' start='987' end='1008' features='mental-state-verbal-clause' state='active'/>
+      <segment id='19' start='987' end='1008' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/phil_ochs.txt.tkzd.14.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='105' end='203' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='105' end='203' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='115' end='201' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='247' end='271' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='428' end='468' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='553' end='603' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='553' end='603' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='563' end='601' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='890' end='933' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='1019' end='1069' features='mental-state-verbal-clause' state='active'/>
+      <segment id='11' start='1359' end='1402' features='mental-state-verbal-clause' state='active'/>
+      <segment id='12' start='1620' end='1646' features='mental-state-verbal-clause' state='active'/>
+      <segment id='13' start='1858' end='1901' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

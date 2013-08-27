@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/peter_bellamy.14.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='240' end='261' features='passive-clause' state='active'/>
+      <segment id='2' start='473' end='496' features='passive-clause' state='active'/>
+      <segment id='3' start='720' end='745' features='passive-clause' state='active'/>
+    </segments>
+</document>

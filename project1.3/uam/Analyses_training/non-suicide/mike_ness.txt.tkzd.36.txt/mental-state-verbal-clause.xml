@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/mike_ness.txt.tkzd.36.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='144' end='157' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='246' end='290' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='246' end='290' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='255' end='290' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='442' end='474' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='442' end='474' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='587' end='693' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='587' end='693' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='594' end='637' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='735' end='748' features='mental-state-verbal-clause' state='active'/>
+      <segment id='11' start='950' end='982' features='mental-state-verbal-clause' state='active'/>
+      <segment id='12' start='950' end='982' features='mental-state-verbal-clause' state='active'/>
+      <segment id='13' start='1018' end='1032' features='mental-state-verbal-clause' state='active'/>
+      <segment id='14' start='1039' end='1053' features='mental-state-verbal-clause' state='active'/>
+      <segment id='15' start='1191' end='1236' features='mental-state-verbal-clause' state='active'/>
+      <segment id='16' start='1322' end='1355' features='mental-state-verbal-clause' state='active'/>
+      <segment id='17' start='1322' end='1355' features='mental-state-verbal-clause' state='active'/>
+      <segment id='18' start='1421' end='1453' features='mental-state-verbal-clause' state='active'/>
+      <segment id='19' start='1421' end='1453' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

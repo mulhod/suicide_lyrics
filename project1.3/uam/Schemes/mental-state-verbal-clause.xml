@@ -1,0 +1,24 @@
+<NETWORK>
+  <ROOT>
+    <FEATURE>
+      <NAME>mental-state-verbal-clause</NAME>
+      <STATE>active</STATE>
+    </FEATURE>
+  </ROOT>
+  <SYSTEMS>
+    <SYSTEM>
+      <NAME>MENTAL-STATE-VERBAL-CLAUSE-TYPE</NAME>
+      <EC>mental-state-verbal-clause</EC>
+      <FEATURES>
+        <FEATURE>
+      <NAME>mental-state-verbal-clause-1</NAME>
+        <STATE>active</STATE>
+      </FEATURE>
+        <FEATURE>
+      <NAME>mental-state-verbal-clause-2</NAME>
+        <STATE>active</STATE>
+      </FEATURE>
+      </FEATURES>
+    </SYSTEM>
+  </SYSTEMS>
+</NETWORK>

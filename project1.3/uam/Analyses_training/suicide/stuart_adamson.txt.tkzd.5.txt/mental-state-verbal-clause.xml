@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/stuart_adamson.txt.tkzd.5.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='181' end='207' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='636' end='662' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='787' end='817' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='787' end='817' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='1324' end='1337' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='1381' end='1393' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='1428' end='1454' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

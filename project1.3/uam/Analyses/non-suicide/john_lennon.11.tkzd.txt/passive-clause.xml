@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/john_lennon.11.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='175' end='203' features='passive-clause' state='active'/>
+      <segment id='2' start='350' end='378' features='passive-clause' state='active'/>
+      <segment id='3' start='684' end='712' features='passive-clause' state='active'/>
+      <segment id='4' start='1018' end='1046' features='passive-clause' state='active'/>
+      <segment id='5' start='1078' end='1106' features='passive-clause' state='active'/>
+      <segment id='6' start='1138' end='1166' features='passive-clause' state='active'/>
+    </segments>
+</document>

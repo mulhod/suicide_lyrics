@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/michael_angelakos_-_gossamer.11.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='1039' end='1083' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='1103' end='1149' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='1174' end='1205' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='1616' end='1650' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

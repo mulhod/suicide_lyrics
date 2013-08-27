@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/stuart_adamson.txt.tkzd.3.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='137' end='182' features='passive-clause' state='active'/>
+      <segment id='2' start='543' end='600' features='passive-clause' state='active'/>
+      <segment id='3' start='935' end='954' features='passive-clause' state='active'/>
+      <segment id='4' start='999' end='1026' features='passive-clause' state='active'/>
+      <segment id='5' start='1720' end='1739' features='passive-clause' state='active'/>
+      <segment id='6' start='1783' end='1810' features='passive-clause' state='active'/>
+    </segments>
+</document>

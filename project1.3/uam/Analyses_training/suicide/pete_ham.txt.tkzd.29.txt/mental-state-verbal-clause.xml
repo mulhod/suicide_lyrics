@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/pete_ham.txt.tkzd.29.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='175' end='198' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='366' end='389' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='474' end='497' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='656' end='679' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

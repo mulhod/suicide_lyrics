@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/michael_hutchence.2.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='53' end='94' features='passive-clause' state='active'/>
+      <segment id='2' start='53' end='77' features='passive-clause' state='active'/>
+    </segments>
+</document>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/elliott_smith.txt.tkzd.44.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='42' end='116' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='775' end='815' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

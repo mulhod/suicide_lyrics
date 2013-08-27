@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/john_lennon.16.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='55' end='81' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='84' end='130' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='133' end='159' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='164' end='233' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='164' end='233' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='164' end='233' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='164' end='233' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='199' end='205' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='270' end='357' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='270' end='357' features='mental-state-verbal-clause' state='active'/>
+      <segment id='11' start='270' end='357' features='mental-state-verbal-clause' state='active'/>
+      <segment id='12' start='270' end='357' features='mental-state-verbal-clause' state='active'/>
+      <segment id='13' start='270' end='357' features='mental-state-verbal-clause' state='active'/>
+      <segment id='14' start='303' end='357' features='mental-state-verbal-clause' state='active'/>
+      <segment id='15' start='303' end='357' features='mental-state-verbal-clause' state='active'/>
+      <segment id='16' start='303' end='357' features='mental-state-verbal-clause' state='active'/>
+      <segment id='17' start='303' end='357' features='mental-state-verbal-clause' state='active'/>
+      <segment id='18' start='335' end='341' features='mental-state-verbal-clause' state='active'/>
+      <segment id='19' start='394' end='419' features='mental-state-verbal-clause' state='active'/>
+      <segment id='20' start='394' end='419' features='mental-state-verbal-clause' state='active'/>
+      <segment id='21' start='495' end='533' features='mental-state-verbal-clause' state='active'/>
+      <segment id='22' start='534' end='571' features='mental-state-verbal-clause' state='active'/>
+      <segment id='23' start='572' end='604' features='mental-state-verbal-clause' state='active'/>
+      <segment id='24' start='605' end='639' features='mental-state-verbal-clause' state='active'/>
+      <segment id='25' start='644' end='719' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

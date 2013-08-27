@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/ben_folds.4.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='32' end='57' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='615' end='693' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='615' end='693' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='658' end='693' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='658' end='693' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='952' end='1055' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='952' end='1055' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

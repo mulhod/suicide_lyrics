@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/johnny_cash.txt.tkzd.15.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='74' end='92' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='209' end='277' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='209' end='277' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='323' end='393' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='803' end='823' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

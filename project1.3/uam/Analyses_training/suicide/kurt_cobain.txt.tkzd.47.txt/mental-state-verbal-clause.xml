@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/kurt_cobain.txt.tkzd.47.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='192' end='216' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='217' end='241' features='mental-state-verbal-clause' state='active'/>
+      <segment id='3' start='242' end='266' features='mental-state-verbal-clause' state='active'/>
+      <segment id='4' start='267' end='284' features='mental-state-verbal-clause' state='active'/>
+      <segment id='5' start='432' end='465' features='mental-state-verbal-clause' state='active'/>
+      <segment id='6' start='443' end='463' features='mental-state-verbal-clause' state='active'/>
+      <segment id='7' start='466' end='490' features='mental-state-verbal-clause' state='active'/>
+      <segment id='8' start='491' end='515' features='mental-state-verbal-clause' state='active'/>
+      <segment id='9' start='516' end='540' features='mental-state-verbal-clause' state='active'/>
+      <segment id='10' start='541' end='558' features='mental-state-verbal-clause' state='active'/>
+      <segment id='11' start='579' end='614' features='mental-state-verbal-clause' state='active'/>
+      <segment id='12' start='640' end='661' features='mental-state-verbal-clause' state='active'/>
+      <segment id='13' start='685' end='709' features='mental-state-verbal-clause' state='active'/>
+      <segment id='14' start='710' end='734' features='mental-state-verbal-clause' state='active'/>
+      <segment id='15' start='735' end='759' features='mental-state-verbal-clause' state='active'/>
+      <segment id='16' start='760' end='777' features='mental-state-verbal-clause' state='active'/>
+      <segment id='17' start='1121' end='1144' features='mental-state-verbal-clause' state='active'/>
+      <segment id='18' start='1145' end='1166' features='mental-state-verbal-clause' state='active'/>
+      <segment id='19' start='1167' end='1194' features='mental-state-verbal-clause' state='active'/>
+      <segment id='20' start='1195' end='1222' features='mental-state-verbal-clause' state='active'/>
+      <segment id='21' start='1223' end='1249' features='mental-state-verbal-clause' state='active'/>
+      <segment id='22' start='1271' end='1288' features='mental-state-verbal-clause' state='active'/>
+      <segment id='23' start='1488' end='1515' features='mental-state-verbal-clause' state='active'/>
+      <segment id='24' start='1516' end='1543' features='mental-state-verbal-clause' state='active'/>
+      <segment id='25' start='1544' end='1571' features='mental-state-verbal-clause' state='active'/>
+      <segment id='26' start='1572' end='1599' features='mental-state-verbal-clause' state='active'/>
+      <segment id='27' start='1600' end='1627' features='mental-state-verbal-clause' state='active'/>
+      <segment id='28' start='1628' end='1645' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>

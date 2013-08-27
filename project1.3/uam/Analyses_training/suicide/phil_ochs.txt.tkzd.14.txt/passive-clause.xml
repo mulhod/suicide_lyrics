@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>suicide/phil_ochs.txt.tkzd.14.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='79' end='104' features='passive-clause' state='active'/>
+      <segment id='2' start='511' end='550' features='passive-clause' state='active'/>
+    </segments>
+</document>

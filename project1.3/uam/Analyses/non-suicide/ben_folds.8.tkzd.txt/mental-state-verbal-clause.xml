@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+  <header>
+    <textfile>non-suicide/ben_folds.8.tkzd.txt</textfile>
+    <lang>english</lang>
+    <complete>0%</complete>
+  </header>
+    <segments>
+      <segment id='1' start='306' end='319' features='mental-state-verbal-clause' state='active'/>
+      <segment id='2' start='725' end='737' features='mental-state-verbal-clause' state='active'/>
+    </segments>
+</document>
