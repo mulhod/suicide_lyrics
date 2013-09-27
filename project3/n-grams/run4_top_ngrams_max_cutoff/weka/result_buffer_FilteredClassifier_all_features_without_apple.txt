@@ -1,0 +1,362 @@
+=== Run information ===
+
+Scheme:weka.classifiers.meta.FilteredClassifier -F "weka.filters.supervised.attribute.Discretize -R first-last" -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     song
+Instances:    533
+Attributes:   88
+              class
+              typ/tok
+              typ/time
+              tok/time
+              1p/typ
+              1p/tok
+              1p/time
+              1ps/typ
+              1ps/tok
+              1ps/time
+              (1PS+.01)/(1PP+.01)
+              2+3p/typ
+              2+3p/tok
+              2+3p/time
+              1P/2-3P_(+.01)
+              LN(1P/2-3P_(+.01))
+              1PS/2-3P_(+.01)
+              LN(1PS/2-3P_(+.01))
+              1PS/All_Other_Pronouns_(+.01)
+              LN(1PS/All_Other_Pronouns_(+.01))
+              passive/tok
+              passive/typ
+              passive/time
+              (I+mental-verb)/tok
+              (I+mental-verb)/typ
+              (I+mental-verb)/time
+              neg/tok
+              neg/typ
+              neg/time
+              neut/tok
+              neut/typ
+              neut/time
+              pos/tok
+              pos/typ
+              pos/time
+              neg/pos_(+.01)
+              ln(neg/pos_(+.01))
+              neg/polar
+              pos/polar
+              sensual/tok
+              sensual/typ
+              sensual/time
+              sensual/pos_(+.01)
+              LN(sensual/pos_(+.01))
+              sensual/neg_(+.01)
+              LN(sensual/neg_(+.01))
+              actionVerb/tok
+              actionVerb/typ
+              actionVerb/time
+              concreteNoun/tok
+              concreteNoun/typ
+              concreteNoun/time
+              death/tok
+              death/typ
+              death/time
+              drug/tok
+              drug/typ
+              drug/time
+              love/tok
+              love/typ
+              love/time
+              depression/tok
+              depression/typ
+              depression/time
+              total_polar_value
+              average_polar_value
+              diff_between_sums_across_all_n-grams
+              percent_suicide_1-grams
+              percent_suicide_2-grams
+              percent_suicide_3-grams
+              percent_suicide_4-grams
+              percent_suicide_5-grams
+              percent_suicide_6-grams
+              percent_non-suicide_1-grams
+              percent_non-suicide_2-grams
+              percent_non-suicide_3-grams
+              percent_non-suicide_4-grams
+              percent_non-suicide_5-grams
+              percent_non-suicide_6-grams
+              diff_for_1-gram_percentages
+              diff_for_2-gram_percentages
+              diff_for_3-gram_percentages
+              diff_for_4-gram_percentages
+              diff_for_5-gram_percentages
+              diff_for_6-gram_percentages
+              average_for_all_n-grams:_suicide
+              average_for_all_n-grams:_non-suicide
+              diff_between_averages_for_all_n-grams
+Test mode:user supplied test set: size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.supervised.attribute.Discretize -R first-last
+
+Filtered Header
+@relation song-weka.filters.supervised.attribute.Discretize-Rfirst-last
+
+@attribute class {suicide,non-suicide}
+@attribute typ/tok {'\'All\''}
+@attribute typ/time {'\'All\''}
+@attribute tok/time {'\'All\''}
+@attribute 1p/typ {'\'All\''}
+@attribute 1p/tok {'\'All\''}
+@attribute 1p/time {'\'All\''}
+@attribute 1ps/typ {'\'All\''}
+@attribute 1ps/tok {'\'All\''}
+@attribute 1ps/time {'\'All\''}
+@attribute (1PS+.01)/(1PP+.01) {'\'All\''}
+@attribute 2+3p/typ {'\'All\''}
+@attribute 2+3p/tok {'\'All\''}
+@attribute 2+3p/time {'\'All\''}
+@attribute 1P/2-3P_(+.01) {'\'All\''}
+@attribute LN(1P/2-3P_(+.01)) {'\'All\''}
+@attribute 1PS/2-3P_(+.01) {'\'All\''}
+@attribute LN(1PS/2-3P_(+.01)) {'\'All\''}
+@attribute 1PS/All_Other_Pronouns_(+.01) {'\'All\''}
+@attribute LN(1PS/All_Other_Pronouns_(+.01)) {'\'All\''}
+@attribute passive/tok {'\'All\''}
+@attribute passive/typ {'\'All\''}
+@attribute passive/time {'\'All\''}
+@attribute (I+mental-verb)/tok {'\'All\''}
+@attribute (I+mental-verb)/typ {'\'All\''}
+@attribute (I+mental-verb)/time {'\'(-inf-0.01023]\'','\'(0.01023-inf)\''}
+@attribute neg/tok {'\'All\''}
+@attribute neg/typ {'\'All\''}
+@attribute neg/time {'\'All\''}
+@attribute neut/tok {'\'All\''}
+@attribute neut/typ {'\'(-inf-0.020339]\'','\'(0.020339-inf)\''}
+@attribute neut/time {'\'All\''}
+@attribute pos/tok {'\'All\''}
+@attribute pos/typ {'\'All\''}
+@attribute pos/time {'\'All\''}
+@attribute neg/pos_(+.01) {'\'All\''}
+@attribute ln(neg/pos_(+.01)) {'\'All\''}
+@attribute neg/polar {'\'All\''}
+@attribute pos/polar {'\'All\''}
+@attribute sensual/tok {'\'All\''}
+@attribute sensual/typ {'\'All\''}
+@attribute sensual/time {'\'All\''}
+@attribute sensual/pos_(+.01) {'\'All\''}
+@attribute LN(sensual/pos_(+.01)) {'\'All\''}
+@attribute sensual/neg_(+.01) {'\'All\''}
+@attribute LN(sensual/neg_(+.01)) {'\'All\''}
+@attribute actionVerb/tok {'\'All\''}
+@attribute actionVerb/typ {'\'All\''}
+@attribute actionVerb/time {'\'All\''}
+@attribute concreteNoun/tok {'\'All\''}
+@attribute concreteNoun/typ {'\'All\''}
+@attribute concreteNoun/time {'\'All\''}
+@attribute death/tok {'\'All\''}
+@attribute death/typ {'\'All\''}
+@attribute death/time {'\'All\''}
+@attribute drug/tok {'\'All\''}
+@attribute drug/typ {'\'All\''}
+@attribute drug/time {'\'All\''}
+@attribute love/tok {'\'All\''}
+@attribute love/typ {'\'All\''}
+@attribute love/time {'\'All\''}
+@attribute depression/tok {'\'All\''}
+@attribute depression/typ {'\'All\''}
+@attribute depression/time {'\'All\''}
+@attribute total_polar_value {'\'All\''}
+@attribute average_polar_value {'\'All\''}
+@attribute diff_between_sums_across_all_n-grams {'\'(-inf--0.108848]\'','\'(-0.108848-inf)\''}
+@attribute percent_suicide_1-grams {'\'All\''}
+@attribute percent_suicide_2-grams {'\'All\''}
+@attribute percent_suicide_3-grams {'\'All\''}
+@attribute percent_suicide_4-grams {'\'All\''}
+@attribute percent_suicide_5-grams {'\'All\''}
+@attribute percent_suicide_6-grams {'\'All\''}
+@attribute percent_non-suicide_1-grams {'\'All\''}
+@attribute percent_non-suicide_2-grams {'\'All\''}
+@attribute percent_non-suicide_3-grams {'\'(-inf-0.0245]\'','\'(0.0245-inf)\''}
+@attribute percent_non-suicide_4-grams {'\'(-inf-0.004292]\'','\'(0.004292-inf)\''}
+@attribute percent_non-suicide_5-grams {'\'All\''}
+@attribute percent_non-suicide_6-grams {'\'All\''}
+@attribute diff_for_1-gram_percentages {'\'(-inf-0.006498]\'','\'(0.006498-inf)\''}
+@attribute diff_for_2-gram_percentages {'\'All\''}
+@attribute diff_for_3-gram_percentages {'\'All\''}
+@attribute diff_for_4-gram_percentages {'\'All\''}
+@attribute diff_for_5-gram_percentages {'\'All\''}
+@attribute diff_for_6-gram_percentages {'\'All\''}
+@attribute average_for_all_n-grams:_suicide {'\'All\''}
+@attribute average_for_all_n-grams:_non-suicide {'\'(-inf-0.041766]\'','\'(0.041766-inf)\''}
+@attribute diff_between_averages_for_all_n-grams {'\'(-inf--0.018141]\'','\'(-0.018141-inf)\''}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+percent_non-suicide_3-grams = '(-inf-0.0245]': suicide (41.0/5.0)
+percent_non-suicide_3-grams = '(0.0245-inf)'
+|   neut/typ = '(-inf-0.020339]': suicide (10.0)
+|   neut/typ = '(0.020339-inf)'
+|   |   percent_non-suicide_4-grams = '(-inf-0.004292]'
+|   |   |   diff_between_sums_across_all_n-grams = '(-inf--0.108848]': non-suicide (7.0/2.0)
+|   |   |   diff_between_sums_across_all_n-grams = '(-0.108848-inf)': suicide (54.0/15.0)
+|   |   percent_non-suicide_4-grams = '(0.004292-inf)'
+|   |   |   (I+mental-verb)/time = '(-inf-0.01023]'
+|   |   |   |   average_for_all_n-grams:_non-suicide = '(-inf-0.041766]': suicide (142.0/53.0)
+|   |   |   |   average_for_all_n-grams:_non-suicide = '(0.041766-inf)': non-suicide (105.0/41.0)
+|   |   |   (I+mental-verb)/time = '(0.01023-inf)': non-suicide (174.0/63.0)
+
+Number of Leaves  : 	7
+
+Size of the tree : 	13
+
+
+Time taken to build model: 0.03 seconds
+
+=== Predictions ontest split===
+
+inst#,    actual, predicted, error, probability distribution
+     1 2:non-suic 2:non-suic          0.39  *0.61 
+     2 2:non-suic 2:non-suic          0.362 *0.638
+     3 2:non-suic  1:suicide      +  *0.627  0.373
+     4 2:non-suic 2:non-suic          0.286 *0.714
+     5 2:non-suic 2:non-suic          0.39  *0.61 
+     6 2:non-suic 2:non-suic          0.362 *0.638
+     7 2:non-suic 2:non-suic          0.39  *0.61 
+     8 2:non-suic 2:non-suic          0.39  *0.61 
+     9 2:non-suic 2:non-suic          0.362 *0.638
+    10 2:non-suic 2:non-suic          0.39  *0.61 
+    11 2:non-suic 2:non-suic          0.362 *0.638
+    12 2:non-suic 2:non-suic          0.362 *0.638
+    13 2:non-suic 2:non-suic          0.362 *0.638
+    14 2:non-suic 2:non-suic          0.362 *0.638
+    15 2:non-suic 2:non-suic          0.362 *0.638
+    16 2:non-suic 2:non-suic          0.362 *0.638
+    17 2:non-suic  1:suicide      +  *0.627  0.373
+    18 2:non-suic 2:non-suic          0.362 *0.638
+    19 2:non-suic 2:non-suic          0.362 *0.638
+    20 2:non-suic 2:non-suic          0.362 *0.638
+    21 2:non-suic 2:non-suic          0.362 *0.638
+    22 2:non-suic 2:non-suic          0.362 *0.638
+    23 2:non-suic  1:suicide      +  *0.627  0.373
+    24 2:non-suic 2:non-suic          0.362 *0.638
+    25 2:non-suic  1:suicide      +  *0.878  0.122
+    26 2:non-suic 2:non-suic          0.39  *0.61 
+    27 2:non-suic 2:non-suic          0.39  *0.61 
+    28 2:non-suic 2:non-suic          0.39  *0.61 
+    29 2:non-suic 2:non-suic          0.39  *0.61 
+    30 2:non-suic  1:suicide      +  *0.627  0.373
+    31 2:non-suic 2:non-suic          0.362 *0.638
+    32 2:non-suic  1:suicide      +  *1      0    
+    33 2:non-suic 2:non-suic          0.39  *0.61 
+    34 2:non-suic 2:non-suic          0.39  *0.61 
+    35 2:non-suic 2:non-suic          0.39  *0.61 
+    36 2:non-suic 2:non-suic          0.362 *0.638
+    37 2:non-suic 2:non-suic          0.39  *0.61 
+    38 2:non-suic 2:non-suic          0.362 *0.638
+    39 2:non-suic  1:suicide      +  *0.627  0.373
+    40 2:non-suic 2:non-suic          0.362 *0.638
+    41 2:non-suic  1:suicide      +  *0.878  0.122
+    42 2:non-suic 2:non-suic          0.39  *0.61 
+    43 2:non-suic 2:non-suic          0.39  *0.61 
+    44 2:non-suic 2:non-suic          0.362 *0.638
+    45 2:non-suic 2:non-suic          0.362 *0.638
+    46 2:non-suic 2:non-suic          0.39  *0.61 
+    47 2:non-suic 2:non-suic          0.362 *0.638
+    48 2:non-suic 2:non-suic          0.362 *0.638
+    49 2:non-suic  1:suicide      +  *0.627  0.373
+    50 2:non-suic  1:suicide      +  *0.627  0.373
+    51 2:non-suic 2:non-suic          0.39  *0.61 
+    52 2:non-suic 2:non-suic          0.362 *0.638
+    53 2:non-suic 2:non-suic          0.362 *0.638
+    54 2:non-suic  1:suicide      +  *0.722  0.278
+    55 2:non-suic 2:non-suic          0.362 *0.638
+    56 2:non-suic  1:suicide      +  *0.627  0.373
+    57 2:non-suic  1:suicide      +  *0.627  0.373
+    58 2:non-suic  1:suicide      +  *0.722  0.278
+    59 2:non-suic 2:non-suic          0.362 *0.638
+    60 2:non-suic 2:non-suic          0.362 *0.638
+    61 2:non-suic 2:non-suic          0.39  *0.61 
+    62 2:non-suic  1:suicide      +  *0.878  0.122
+    63 2:non-suic 2:non-suic          0.362 *0.638
+    64  1:suicide 2:non-suic      +   0.362 *0.638
+    65  1:suicide 2:non-suic      +   0.362 *0.638
+    66  1:suicide  1:suicide         *0.878  0.122
+    67  1:suicide 2:non-suic      +   0.362 *0.638
+    68  1:suicide  1:suicide         *0.878  0.122
+    69  1:suicide  1:suicide         *0.722  0.278
+    70  1:suicide  1:suicide         *0.627  0.373
+    71  1:suicide  1:suicide         *0.627  0.373
+    72  1:suicide  1:suicide         *0.627  0.373
+    73  1:suicide  1:suicide         *0.627  0.373
+    74  1:suicide  1:suicide         *0.878  0.122
+    75  1:suicide  1:suicide         *0.722  0.278
+    76  1:suicide  1:suicide         *0.878  0.122
+    77  1:suicide  1:suicide         *0.878  0.122
+    78  1:suicide 2:non-suic      +   0.39  *0.61 
+    79  1:suicide  1:suicide         *0.878  0.122
+    80  1:suicide  1:suicide         *0.878  0.122
+    81  1:suicide  1:suicide         *0.627  0.373
+    82  1:suicide  1:suicide         *0.878  0.122
+    83  1:suicide  1:suicide         *0.627  0.373
+    84  1:suicide  1:suicide         *0.627  0.373
+    85  1:suicide  1:suicide         *0.878  0.122
+    86  1:suicide 2:non-suic      +   0.362 *0.638
+    87  1:suicide 2:non-suic      +   0.362 *0.638
+    88  1:suicide  1:suicide         *0.627  0.373
+    89  1:suicide  1:suicide         *0.627  0.373
+    90  1:suicide 2:non-suic      +   0.362 *0.638
+    91  1:suicide 2:non-suic      +   0.39  *0.61 
+    92  1:suicide 2:non-suic      +   0.362 *0.638
+    93  1:suicide  1:suicide         *0.627  0.373
+    94  1:suicide  1:suicide         *0.627  0.373
+    95  1:suicide  1:suicide         *0.878  0.122
+    96  1:suicide 2:non-suic      +   0.362 *0.638
+    97  1:suicide 2:non-suic      +   0.362 *0.638
+    98  1:suicide 2:non-suic      +   0.39  *0.61 
+    99  1:suicide 2:non-suic      +   0.39  *0.61 
+   100  1:suicide 2:non-suic      +   0.39  *0.61 
+   101  1:suicide  1:suicide         *0.627  0.373
+   102  1:suicide  1:suicide         *0.627  0.373
+   103  1:suicide 2:non-suic      +   0.362 *0.638
+   104  1:suicide 2:non-suic      +   0.362 *0.638
+   105  1:suicide  1:suicide         *0.878  0.122
+   106  1:suicide 2:non-suic      +   0.362 *0.638
+   107  1:suicide 2:non-suic      +   0.39  *0.61 
+   108  1:suicide  1:suicide         *0.627  0.373
+   109  1:suicide  1:suicide         *0.627  0.373
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances          76               69.7248 %
+Incorrectly Classified Instances        33               30.2752 %
+Kappa statistic                          0.3739
+K&B Relative Info Score               1872.5883 %
+K&B Information Score                   18.6915 bits      0.1715 bits/instance
+Class complexity | order 0             110.4393 bits      1.0132 bits/instance
+Class complexity | scheme             1170.5896 bits     10.7394 bits/instance
+Complexity improvement     (Sf)      -1060.1503 bits     -9.7261 bits/instance
+Mean absolute error                      0.4343
+Root mean squared error                  0.4696
+Relative absolute error                 86.187  %
+Root relative squared error             93.0774 %
+Total Number of Instances              109     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.609     0.238      0.651     0.609     0.629      0.686    suicide
+                 0.762     0.391      0.727     0.762     0.744      0.686    non-suicide
+Weighted Avg.    0.697     0.327      0.695     0.697     0.696      0.686
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 28 18 |  a = suicide
+ 15 48 |  b = non-suicide
+

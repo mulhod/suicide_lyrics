@@ -1,0 +1,130 @@
+Suicide Lyrics Pipeline
+
+A. Processing Lyrics Files
+
+  1. by_artist dir
+  
+    a. make by_artist dir and then a raw sub-dir (with suicide and non-suicide sub-dirs in raw).
+
+    b. put all the raw artist lyrics files in those dirs.
+    
+    c. take the time now to create the by_song (and maybe by_artist, as well, if you want) database file, which will just be a spreadsheet including info such as song name, artist name, song length (in sec). make sure to put the songs in the order in which they appear within each artist file. it doesn't matter which order the artists are in, but their songs MUST be in the order in which they appear in the lyrics file.
+
+  2. Tokenization
+
+    a. copy and paste all of raw's contents into a new "tokenized" sub-dir within by_artist.
+
+    b. preprocessing (before tokenizing): run toLowerCase_and_globalReplace.sh on each of the copies in raw/tokenized (this will replace those files with altered copies).
+
+    c. tokenize the by_artist/tokenized files with OpenNLPTokenizer.sh (this will take the files that have been switched to lower-case, etc., and tokenize them, outputting a file of the same name, but with ".tkzd" before the file extension).
+
+  3. POS-tagging
+  
+    a. copy and paste all of tokenized's contents into a new "tagged" sub-dir within by_artist.
+    
+    b. tag the files in each sub-dir in by_artist/tagged using the OpenNLPTagger.sh script (make sure to change the path to the appropriate sub-dir before actually running the script).
+    
+  4. Lemmatization
+  
+    a. make a new "lemmatized" sub-dir within by_artist (with suicide and non-suicide sub-dirs).
+    
+    b. to make sure the output of the lemmatizer goes to the aforementioned sub-dirs, you have to go to the lemmatizer's config file, find the "Export" section, and change the path to the path of the appropriate sub-dir, i.e., ~/by_artist/lemmatized/non-suicide.
+    
+    c. make sure that the line "LemmatizeWithPOS" near the beginning of the config file equals "true".
+    
+    d. lemmatize the by_artist/tagged (notice this is the TAGGED dir because the lemmatizer uses the POS tags!) files with the script "lemmatizer.sh" (make sure the path in the script, the last on the line, is pointing to the appropriate by_artist/tagged sub-dir before actually running the script).
+    
+  5. Parsing: follow a similar process to that above under "POS-tagging", i.e., use the tokenized version of the files as input and use the OpenNLPParser.sh script.
+  
+  6. Creating the by_song files
+  
+    a. create a dir structure similar to that of by_artist, i.e., with raw, tokenized, etc., sub-dirs containing non-suicide and suicide sub-dirs.
+    
+    b. for each artist file in each of the sub-dirs within by_artist, use the incrementingSplitter.sh script. in it, you have to specify first where the split files will go and what their names will be. if the input file is called "bob_dylan.txt", you would want the first path to point to the appropriate by_song sub-dir for Bob Dylan and for the files to contain his name. next, you have to specify the input path. for this, you need to make sure it knows where the file is that you're trying to split. use the incrementingSplitter.sh script for each artist in each of the sub-dirs in by_song, such as raw, tokenized, lemmatized, etc. (instead, you could just modify the script by copying the command over and over again in the script and altering it for each file, so that you only have to actually call the script once in the command-line.
+
+B. Word-List File Creation and Processing    
+
+  1. create word_classes dir alongside of the by_artist and by_song dirs.
+    
+  2. create a raw_words sub-dir within word_classes and put all of the files containing your word classes (before anything's been done to them).
+  
+  3. word class file lemmatization:
+    
+    a. create a lemmas sub-dir within word_classes.
+      
+    b. open up the lemmatizer config file and change the "LemmatizeWithPOS" line near the beginning to "false" (since we won't be using tags here due to the fact that that would be pointless since the words are not in sentences).
+      
+    c. also in the lemmatizer config file, change the output path (in the "Export" section) to the word_classes/lemmas dir.
+      
+    d. lemmatize each word class file in raw_words using the lemmatizer.sh script (make sure to change the path in the script so that it's lemmatizing the correct dir of files and not that you can specify either a dir of files or a single file, if desired).
+      
+  5. word class lemmas to lemma-types: the lemmatized word class files need to be sorted and "uniq"-ed to make sure that each lemma only occurs once.
+    
+    a. create a unique_lemmas sub-dir within word-classes.
+      
+    b. for each lemmatized file in word_classes/lemmas, run the following command:
+    
+      egrep -o '\b[0-9a-z]*\b' ~/word_classes/lemmas/input-file.txt.lem.txt | sort | uniq -c | sort -n > ~/word_classes/unique_lemmas/output-file.uniq_lem.txt
+	
+    notice that the first path is pointing to your input file (in the lemmatized dir) and the second path is pointing to your output file (in the uniq_lemmas dir), which you might want to name BASE-NAME.uniq_lem.txt just to be consistent. for example if the input file is ~/word_classes/lemmas/love_words.txt.lem.txt, the output file should be ~/word_classes/unique_lemmas/love_words.uniq_lem.txt.
+      
+    c. reformatting the uniq_lemmas files: because the output of the above command will not only include each lemma but also how many times it occurred and we only want the lemmas (there's probably an easy way of doing this, but I don't feel like figuring out what that way is right now, so maybe you can and add that to the script and change these instructions!). to fix this issue, I took to copying and pasting the contents of a file into LibreOffice Calc and selecting "space" as the delimiter and then deleting the first 5-6 columns (or however many it is) so that I'm left with only a column containing the words. then, I copy and paste these words back into the original file so that it's only one word per line. inefficient, but it works.
+      
+  6. creating countTokens.sh scripts for each word-class file
+  
+    a. light preprocessing of word-lists (somewhat optional)
+  
+      i. make sure it's one word per line and no words are split over multiple lines
+    
+      ii. make sure everything is in lower case (it should already be, but occasionally something will be in upper case)
+    
+      iii. if any accented letters (or weird chars) are found, either change them to the plain version or get rid of the word altogether
+      
+      iv. subjective cleaning: go through the word-list and look for words that, as a result of lemmatizing, are so reduced that it might not be worth it to keep it. for example, words like "to". just get rid of such words. furthermore, get rid of words that contain apostrophes as this will mess up the regex in the script.
+      
+      v. do some light spell-checking and correcting by hand and delete any cases you find that don't contain words that should be searched for.
+    
+    b. create a counting_commands_lists sub-dir within word_classes.
+      
+    c. copy all of the files in uniq_lemmas and paste them into this dir.
+      
+    d. find "^" and replace with "count=\$\(\(\$count\+\$\(egrep -io '\\b".
+      
+    e. find "$" and replace with "\\b' "\$f" \| wc -w\)\)\)".
+      
+    f. based on the sort of template of many of the countTokens.sh scripts in ~/bin, modify the beginning and end of these files containing mere lists of counting commands so that they are actual scripts.
+      
+    g. once a script is actually finished, make sure to put a copy of it in ~/bin (make sure it has a unique, descriptive name).
+      
+    h. to make the scripts executable, run "chmod -R a+rwx ~/bin", where ~/bin is the path to the bin dir that the scripts are contained in.
+    
+C. Counting Types, Tokens, & Words
+
+  1. run the countTypesTokens.sh script (make sure to change the relevant paths in the script). it will output 3 .csv files, tokensCount.csv, typesCount.csv, and fileList.csv. these 3 files will have to be manually pasted together to line up the file names with the counts. save the created file in the Project2 dir as a .ods file called counts.ods. (it might be easier to paste the outputs of all the other counting scripts, as well, rather than repeating this process for each of those scripts individually.)
+    
+  2. repeat the process above for the other counting scripts. each script will produce a file list (which should be the same as the one that is produced by the other scripts and will just overwrite it if it exists) and a count file. copy and paste the contents of the count file into the counts.ods file mentioned above in columns following the file names, types, and tokens columns that are already there. remember to name to each column so you don't forget what the counts are for.
+    
+  3. create a new tab for the first grouping of files from the same artist and copy and paste the file names and counts there. in that tab, do away with the part of the file names surrounding the index number (using regexes) so that all that is left in the file-name column is the index number. once this is finished, sort by that column so that the index numbers go from 1 to the index number of the last file for that artist. (cross-check in the songs database to make sure all the files are included.) then, the contents for the types, tokens, etc., columns can be pasted directly into the songs database in the appropriate columns.
+    
+  4. (once the counts are input for all of the files for all of the artists) all of the features except passives and mental-verbs are calculated based on these counts, so use functions to calculate the features. for example, to calculate the values in the TTR (type-token ratio) column of the songs database, write a function for the first file that divides the types count by the tokens count and then click and drag to the rest of the cells.
+    
+D. Using the UAM corpus tool for counting passives and mental verb constructions
+
+E. Creating .arff File for Weka
+
+  1. create a "weka" sub-dir in the Project folder
+  
+  2. using a template from a previous .arff file, simply fill in all of the necessary information for the beginning (non-data) part of the file. make sure that each feature is listed in the beginning section of the .arff file and that there are no extra features. store the file in weka and call it set-name_version-number.arff (where set-name refers to what dataset is in the file, training or test, etc.).
+  
+  3. in order to paste in the data successfully, you might want to do the following:
+  
+    a. open the songs database file and copy all of the data (for the appropriate set)
+	
+	b. open a new spreadsheet, right-click, and select "paste special..." and then select the numbers-only option. this should paste all of the numbers (and not the formulas, crucially), but it won't have pasted the column-names, so go back and copy and paste the column names into the new spreadsheet above the values. save this file in the weka dir and call it something like featureValues_set-name_version-number.arff (where set-name refers to whether it's the training set or a test set, etc., and version-number should just start off at 1 so that any new datasets could be distinguished easily)
+	
+	c. delete any columns that are not represented by an attribute in the attributes section of the .arff file and make sure they are in the same order from first to last. double-check by cross-checking the attributes list and the column headings.
+	
+	d. since the songs column contains entries that contain commas, spaces, quotation marks, etc., it is suggested that the songs column be temporarily copied and pasted into a text editor and then ""|'|,|\.|-| " is searched for and replaced by "" (i.e., blank) and then subsequently  the data should be copied and pasted back into the .csv file's song columns.
+	
+	e. save the file as a .csv file of the same name. when it asks about the encoding you want to save it as, select "UTF-8".
+	

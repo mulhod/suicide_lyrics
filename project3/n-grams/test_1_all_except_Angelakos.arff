@@ -1,0 +1,132 @@
+% 1. Title: Suicide/Non-suicide Project 2 Test Set Version 1 without Michael Angelakos
+% 
+% 2. Sources:
+%      (a) Creator: Matt Mulholland and Joanne Quinn
+%      (b) Contents
+%		Non-suicide Lyricists (63 songs):
+%			1. Ben Folds (11 songs)
+%			2. Chris Bell (12 songs)
+%			3. John Lennon (20 songs)
+%			4. Neil Young (10 songs)
+%			5. Paul Simon (10 songs)
+%		Suicide Lyricists (46 songs):
+%			1. Doug Hopkins (4 songs)
+%			2. Peter Bellamy (18 songs)
+%			3. Richard Manuel (10 songs)
+%			4. Tom Evans (14 songs)
+%      (c) Date: August, 2013
+%
+@relation song
+
+@ATTRIBUTE	class	{suicide,non-suicide}
+@ATTRIBUTE	typ/tok	numeric
+@ATTRIBUTE	typ/time	numeric
+@ATTRIBUTE	tok/time	numeric
+@ATTRIBUTE	1p/typ	numeric
+@ATTRIBUTE	1p/tok	numeric
+@ATTRIBUTE	1p/time	numeric
+@ATTRIBUTE	1ps/typ	numeric
+@ATTRIBUTE	1ps/tok	numeric
+@ATTRIBUTE	1ps/time	numeric
+@ATTRIBUTE	(1PS+.01)/(1PP+.01)	numeric
+@ATTRIBUTE	2+3p/typ	numeric
+@ATTRIBUTE	2+3p/tok	numeric
+@ATTRIBUTE	2+3p/time	numeric
+@ATTRIBUTE	1P/2-3P_(+.01)	numeric
+@ATTRIBUTE	LN(1P/2-3P_(+.01))	numeric
+@ATTRIBUTE	1PS/2-3P_(+.01)	numeric
+@ATTRIBUTE	LN(1PS/2-3P_(+.01))	numeric
+@ATTRIBUTE	1PS/All_Other_Pronouns_(+.01)	numeric
+@ATTRIBUTE	LN(1PS/All_Other_Pronouns_(+.01))	numeric
+@ATTRIBUTE	passive/tok	numeric
+@ATTRIBUTE	passive/typ	numeric
+@ATTRIBUTE	passive/time	numeric
+@ATTRIBUTE	(I+mental-verb)/tok	numeric
+@ATTRIBUTE	(I+mental-verb)/typ	numeric
+@ATTRIBUTE	(I+mental-verb)/time	numeric
+@ATTRIBUTE	neg/tok	numeric
+@ATTRIBUTE	neg/typ	numeric
+@ATTRIBUTE	neg/time	numeric
+@ATTRIBUTE	neut/tok	numeric
+@ATTRIBUTE	neut/typ	numeric
+@ATTRIBUTE	neut/time	numeric
+@ATTRIBUTE	pos/tok	numeric
+@ATTRIBUTE	pos/typ	numeric
+@ATTRIBUTE	pos/time	numeric
+@ATTRIBUTE	neg/pos_(+.01)	numeric
+@ATTRIBUTE	ln(neg/pos_(+.01))	numeric
+@ATTRIBUTE	neg/polar	numeric
+@ATTRIBUTE	pos/polar	numeric
+@ATTRIBUTE	sensual/tok	numeric
+@ATTRIBUTE	sensual/typ	numeric
+@ATTRIBUTE	sensual/time	numeric
+@ATTRIBUTE	sensual/pos_(+.01)	numeric
+@ATTRIBUTE	LN(sensual/pos_(+.01))	numeric
+@ATTRIBUTE	sensual/neg_(+.01)	numeric
+@ATTRIBUTE	LN(sensual/neg_(+.01))	numeric
+@ATTRIBUTE	actionVerb/tok	numeric
+@ATTRIBUTE	actionVerb/typ	numeric
+@ATTRIBUTE	actionVerb/time	numeric
+@ATTRIBUTE	concreteNoun/tok	numeric
+@ATTRIBUTE	concreteNoun/typ	numeric
+@ATTRIBUTE	concreteNoun/time	numeric
+@ATTRIBUTE	death/tok	numeric
+@ATTRIBUTE	death/typ	numeric
+@ATTRIBUTE	death/time	numeric
+@ATTRIBUTE	drug/tok	numeric
+@ATTRIBUTE	drug/typ	numeric
+@ATTRIBUTE	drug/time	numeric
+@ATTRIBUTE	love/tok	numeric
+@ATTRIBUTE	love/typ	numeric
+@ATTRIBUTE	love/time	numeric
+@ATTRIBUTE	depression/tok	numeric
+@ATTRIBUTE	depression/typ	numeric
+@ATTRIBUTE	depression/time	numeric
+@ATTRIBUTE	total_polar_value	numeric
+@ATTRIBUTE	average_polar_value	numeric
+@ATTRIBUTE	diff_between_sums_across_all_n-grams	numeric
+@ATTRIBUTE	percent_suicide_1-grams	numeric
+@ATTRIBUTE	percent_suicide_2-grams	numeric
+@ATTRIBUTE	percent_suicide_3-grams	numeric
+@ATTRIBUTE	percent_suicide_4-grams	numeric
+@ATTRIBUTE	percent_suicide_5-grams	numeric
+@ATTRIBUTE	percent_suicide_6-grams	numeric
+@ATTRIBUTE	percent_non-suicide_1-grams	numeric
+@ATTRIBUTE	percent_non-suicide_2-grams	numeric
+@ATTRIBUTE	percent_non-suicide_3-grams	numeric
+@ATTRIBUTE	percent_non-suicide_4-grams	numeric
+@ATTRIBUTE	percent_non-suicide_5-grams	numeric
+@ATTRIBUTE	percent_non-suicide_6-grams	numeric
+@ATTRIBUTE	diff_for_1-gram_percentages	numeric
+@ATTRIBUTE	diff_for_2-gram_percentages	numeric
+@ATTRIBUTE	diff_for_3-gram_percentages	numeric
+@ATTRIBUTE	diff_for_4-gram_percentages	numeric
+@ATTRIBUTE	diff_for_5-gram_percentages	numeric
+@ATTRIBUTE	diff_for_6-gram_percentages	numeric
+@ATTRIBUTE	average_for_all_n-grams:_suicide	numeric
+@ATTRIBUTE	average_for_all_n-grams:_non-suicide	numeric
+@ATTRIBUTE	diff_between_averages_for_all_n-grams	numeric
+@ATTRIBUTE	verb/tok	numeric
+@ATTRIBUTE	adj/tok	numeric
+@ATTRIBUTE	noun/tok	numeric
+@ATTRIBUTE	pronoun/tok	numeric
+@ATTRIBUTE	adv/tok	numeric
+@ATTRIBUTE	adv_particle/tok	numeric
+@ATTRIBUTE	conj_coord/tok	numeric
+@ATTRIBUTE	prep_or_conj_subord/tok	numeric
+@ATTRIBUTE	numeral/tok	numeric
+@ATTRIBUTE	det/tok	numeric
+@ATTRIBUTE	there_existential/tok	numeric
+@ATTRIBUTE	verb/(adj+.01)	numeric
+@ATTRIBUTE	verb/(adv+.01)	numeric
+@ATTRIBUTE	verb/(noun+.01)	numeric
+@ATTRIBUTE	verb/(pronoun+.01)	numeric
+@ATTRIBUTE	adj/(noun+.01)	numeric
+@ATTRIBUTE	adj/(pronoun+.01)	numeric
+@ATTRIBUTE	adj/(adv+.01)	numeric
+@ATTRIBUTE	noun/(pronoun+.01)	numeric
+@ATTRIBUTE	noun/(adv+.01)	numeric
+@ATTRIBUTE	adv/(pronoun+.01)	numeric
+@ATTRIBUTE	conj_coord/(prep_or_conj_subord+.01)	numeric
+
+@DATA

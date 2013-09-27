@@ -1,0 +1,178 @@
+=== Run information ===
+
+Scheme:weka.classifiers.rules.JRip -F 3 -N 2.0 -O 2 -S 1
+Relation:     song
+Instances:    565
+Attributes:   14
+              class
+              passive/tok
+              passive/typ
+              passive/time
+              (I+mental-verb)/time
+              neut/typ
+              diff_between_sums_across_all_n-grams
+              percent_non-suicide_2-grams
+              percent_non-suicide_4-grams
+              diff_for_1-gram_percentages
+              diff_for_2-gram_percentages
+              average_for_all_n-grams:_non-suicide
+              diff_between_averages_for_all_n-grams
+              det/tok
+Test mode:user supplied test set: size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+JRIP rules:
+===========
+
+((I+mental-verb)/time <= 0.009868) and (average_for_all_n-grams:_non-suicide <= 0.025222) => class=suicide (221.0/71.0)
+ => class=non-suicide (344.0/130.0)
+
+Number of Rules : 2
+
+
+Time taken to build model: 0.14 seconds
+
+=== Predictions ontest split===
+
+inst#,    actual, predicted, error, probability distribution
+     1 2:non-suic 2:non-suic          0.378 *0.622
+     2 2:non-suic 2:non-suic          0.378 *0.622
+     3 2:non-suic  1:suicide      +  *0.679  0.321
+     4 2:non-suic 2:non-suic          0.378 *0.622
+     5 2:non-suic  1:suicide      +  *0.679  0.321
+     6 2:non-suic 2:non-suic          0.378 *0.622
+     7 2:non-suic 2:non-suic          0.378 *0.622
+     8 2:non-suic 2:non-suic          0.378 *0.622
+     9 2:non-suic 2:non-suic          0.378 *0.622
+    10 2:non-suic 2:non-suic          0.378 *0.622
+    11 2:non-suic 2:non-suic          0.378 *0.622
+    12 2:non-suic 2:non-suic          0.378 *0.622
+    13 2:non-suic 2:non-suic          0.378 *0.622
+    14 2:non-suic 2:non-suic          0.378 *0.622
+    15 2:non-suic 2:non-suic          0.378 *0.622
+    16 2:non-suic 2:non-suic          0.378 *0.622
+    17 2:non-suic  1:suicide      +  *0.679  0.321
+    18 2:non-suic 2:non-suic          0.378 *0.622
+    19 2:non-suic 2:non-suic          0.378 *0.622
+    20 2:non-suic 2:non-suic          0.378 *0.622
+    21 2:non-suic 2:non-suic          0.378 *0.622
+    22 2:non-suic 2:non-suic          0.378 *0.622
+    23 2:non-suic  1:suicide      +  *0.679  0.321
+    24 2:non-suic 2:non-suic          0.378 *0.622
+    25 2:non-suic  1:suicide      +  *0.679  0.321
+    26 2:non-suic 2:non-suic          0.378 *0.622
+    27 2:non-suic  1:suicide      +  *0.679  0.321
+    28 2:non-suic 2:non-suic          0.378 *0.622
+    29 2:non-suic 2:non-suic          0.378 *0.622
+    30 2:non-suic 2:non-suic          0.378 *0.622
+    31 2:non-suic 2:non-suic          0.378 *0.622
+    32 2:non-suic  1:suicide      +  *0.679  0.321
+    33 2:non-suic 2:non-suic          0.378 *0.622
+    34 2:non-suic 2:non-suic          0.378 *0.622
+    35 2:non-suic 2:non-suic          0.378 *0.622
+    36 2:non-suic 2:non-suic          0.378 *0.622
+    37 2:non-suic 2:non-suic          0.378 *0.622
+    38 2:non-suic 2:non-suic          0.378 *0.622
+    39 2:non-suic  1:suicide      +  *0.679  0.321
+    40 2:non-suic 2:non-suic          0.378 *0.622
+    41 2:non-suic  1:suicide      +  *0.679  0.321
+    42 2:non-suic 2:non-suic          0.378 *0.622
+    43 2:non-suic 2:non-suic          0.378 *0.622
+    44 2:non-suic 2:non-suic          0.378 *0.622
+    45 2:non-suic 2:non-suic          0.378 *0.622
+    46 2:non-suic 2:non-suic          0.378 *0.622
+    47 2:non-suic 2:non-suic          0.378 *0.622
+    48 2:non-suic 2:non-suic          0.378 *0.622
+    49 2:non-suic  1:suicide      +  *0.679  0.321
+    50 2:non-suic  1:suicide      +  *0.679  0.321
+    51 2:non-suic 2:non-suic          0.378 *0.622
+    52 2:non-suic 2:non-suic          0.378 *0.622
+    53 2:non-suic 2:non-suic          0.378 *0.622
+    54 2:non-suic  1:suicide      +  *0.679  0.321
+    55 2:non-suic 2:non-suic          0.378 *0.622
+    56 2:non-suic  1:suicide      +  *0.679  0.321
+    57 2:non-suic 2:non-suic          0.378 *0.622
+    58 2:non-suic 2:non-suic          0.378 *0.622
+    59 2:non-suic 2:non-suic          0.378 *0.622
+    60 2:non-suic 2:non-suic          0.378 *0.622
+    61 2:non-suic 2:non-suic          0.378 *0.622
+    62 2:non-suic  1:suicide      +  *0.679  0.321
+    63 2:non-suic 2:non-suic          0.378 *0.622
+    64  1:suicide 2:non-suic      +   0.378 *0.622
+    65  1:suicide 2:non-suic      +   0.378 *0.622
+    66  1:suicide  1:suicide         *0.679  0.321
+    67  1:suicide 2:non-suic      +   0.378 *0.622
+    68  1:suicide  1:suicide         *0.679  0.321
+    69  1:suicide  1:suicide         *0.679  0.321
+    70  1:suicide  1:suicide         *0.679  0.321
+    71  1:suicide 2:non-suic      +   0.378 *0.622
+    72  1:suicide  1:suicide         *0.679  0.321
+    73  1:suicide  1:suicide         *0.679  0.321
+    74  1:suicide  1:suicide         *0.679  0.321
+    75  1:suicide  1:suicide         *0.679  0.321
+    76  1:suicide  1:suicide         *0.679  0.321
+    77  1:suicide  1:suicide         *0.679  0.321
+    78  1:suicide 2:non-suic      +   0.378 *0.622
+    79  1:suicide  1:suicide         *0.679  0.321
+    80  1:suicide  1:suicide         *0.679  0.321
+    81  1:suicide  1:suicide         *0.679  0.321
+    82  1:suicide  1:suicide         *0.679  0.321
+    83  1:suicide 2:non-suic      +   0.378 *0.622
+    84  1:suicide  1:suicide         *0.679  0.321
+    85  1:suicide  1:suicide         *0.679  0.321
+    86  1:suicide 2:non-suic      +   0.378 *0.622
+    87  1:suicide 2:non-suic      +   0.378 *0.622
+    88  1:suicide  1:suicide         *0.679  0.321
+    89  1:suicide  1:suicide         *0.679  0.321
+    90  1:suicide 2:non-suic      +   0.378 *0.622
+    91  1:suicide 2:non-suic      +   0.378 *0.622
+    92  1:suicide 2:non-suic      +   0.378 *0.622
+    93  1:suicide  1:suicide         *0.679  0.321
+    94  1:suicide  1:suicide         *0.679  0.321
+    95  1:suicide  1:suicide         *0.679  0.321
+    96  1:suicide 2:non-suic      +   0.378 *0.622
+    97  1:suicide 2:non-suic      +   0.378 *0.622
+    98  1:suicide 2:non-suic      +   0.378 *0.622
+    99  1:suicide 2:non-suic      +   0.378 *0.622
+   100  1:suicide 2:non-suic      +   0.378 *0.622
+   101  1:suicide  1:suicide         *0.679  0.321
+   102  1:suicide  1:suicide         *0.679  0.321
+   103  1:suicide 2:non-suic      +   0.378 *0.622
+   104  1:suicide 2:non-suic      +   0.378 *0.622
+   105  1:suicide  1:suicide         *0.679  0.321
+   106  1:suicide 2:non-suic      +   0.378 *0.622
+   107  1:suicide  1:suicide         *0.679  0.321
+   108  1:suicide  1:suicide         *0.679  0.321
+   109  1:suicide  1:suicide         *0.679  0.321
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances          76               69.7248 %
+Incorrectly Classified Instances        33               30.2752 %
+Kappa statistic                          0.3702
+K&B Relative Info Score               1497.4946 %
+K&B Information Score                   14.9741 bits      0.1374 bits/instance
+Class complexity | order 0             108.7898 bits      0.9981 bits/instance
+Class complexity | scheme               98.2586 bits      0.9015 bits/instance
+Complexity improvement     (Sf)         10.5313 bits      0.0966 bits/instance
+Mean absolute error                      0.4451
+Root mean squared error                  0.4652
+Relative absolute error                 89.1385 %
+Root relative squared error             93.1612 %
+Total Number of Instances              109     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.587     0.222      0.659     0.587     0.621      0.682    suicide
+                 0.778     0.413      0.721     0.778     0.748      0.682    non-suicide
+Weighted Avg.    0.697     0.333      0.694     0.697     0.694      0.682
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 27 19 |  a = suicide
+ 14 49 |  b = non-suicide
+
